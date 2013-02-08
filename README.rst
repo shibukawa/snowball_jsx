@@ -18,7 +18,7 @@ Using the library
 
 You can use each stemming modules from JSX program.
 
-.. code-block:: java
+.. code-block:: javascript
 
    import "english-stemmer.jsx";
 
@@ -63,7 +63,7 @@ Usage::
 
 .. code-block:: bash
 
-   $ jsx --add-search-path ./lib ./bin/testapp.jsx English
+   $ jsx --run --add-search-path ./lib ./bin/testapp.jsx English "sentences... "
 
 License
 -------
