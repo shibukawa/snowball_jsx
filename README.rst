@@ -13,8 +13,8 @@ Original program is maintained at following place:
 Original Snowball product is created by Dr Martin Porter and  Richard Boulton (Java porting) under
 BSD license.
 
-Using the library
------------------
+How to use library
+------------------
 
 You can use each stemming modules from JSX program.
 
@@ -31,7 +31,31 @@ You can use each stemming modules from JSX program.
        }
    }
 
-If you want to use this module from JavaScript, convert your needed module into JavaScript.
+Following modules are common modules. Don't forget bundle these modules to your program:
+
+* ``among.jsx``
+* ``snowball-stemmer.jsx``
+
+Following modules are optiona modules. Select your needed language modules:
+
+* ``danish-stemmer.jsx``
+* ``dutch-stemmer.jsx``
+* ``english-stemmer.jsx``
+* ``finnish-stemmer.jsx``
+* ``french-stemmer.jsx``
+* ``german-stemmer.jsx``
+* ``hungarian-stemmer.jsx``
+* ``italian-stemmer.jsx``
+* ``norwegian-stemmer.jsx``
+* ``porter-stemmer.jsx``
+* ``portuguese-stemmer.jsx``
+* ``romanian-stemmer.jsx``
+* ``russian-stemmer.jsx``
+* ``spanish-stemmer.jsx``
+* ``swedish-stemmer.jsx``
+* ``turkish-stemmer.jsx``
+
+You can use this module from JavaScript. Following command converts your needed module into JavaScript.
 
 .. code-block:: bash
 
