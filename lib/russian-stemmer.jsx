@@ -334,12 +334,18 @@ class RussianStemmer extends SnowballStemmer
                     }
                 }
                 // delete, line 76
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 83
                 // delete, line 83
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -365,7 +371,10 @@ class RussianStemmer extends SnowballStemmer
             case 1:
                 // (, line 97
                 // delete, line 97
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -432,12 +441,18 @@ class RussianStemmer extends SnowballStemmer
                         }
                     }
                     // delete, line 115
-                    this.slice_del();
+                    if (!this.slice_del())
+                    {
+                        return false;
+                    }
                     break;
                 case 2:
                     // (, line 122
                     // delete, line 122
-                    this.slice_del();
+                    if (!this.slice_del())
+                    {
+                        return false;
+                    }
                     break;
             }
         }
@@ -464,7 +479,10 @@ class RussianStemmer extends SnowballStemmer
             case 1:
                 // (, line 132
                 // delete, line 132
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -515,12 +533,18 @@ class RussianStemmer extends SnowballStemmer
                     }
                 }
                 // delete, line 143
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 151
                 // delete, line 151
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -546,7 +570,10 @@ class RussianStemmer extends SnowballStemmer
             case 1:
                 // (, line 167
                 // delete, line 167
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -577,7 +604,10 @@ class RussianStemmer extends SnowballStemmer
             case 1:
                 // (, line 179
                 // delete, line 179
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -603,7 +633,10 @@ class RussianStemmer extends SnowballStemmer
             case 1:
                 // (, line 188
                 // delete, line 188
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 // [, line 189
                 this.ket = this.cursor;
                 // literal, line 189
@@ -619,7 +652,10 @@ class RussianStemmer extends SnowballStemmer
                     return false;
                 }
                 // delete, line 189
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 192
@@ -629,12 +665,18 @@ class RussianStemmer extends SnowballStemmer
                     return false;
                 }
                 // delete, line 192
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 3:
                 // (, line 194
                 // delete, line 194
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -776,7 +818,10 @@ class RussianStemmer extends SnowballStemmer
             // ], line 209
             this.bra = this.cursor;
             // delete, line 209
-            this.slice_del();
+            if (!this.slice_del())
+            {
+                return false;
+            }
         }
         // do, line 212
         v_9 = this.limit - this.cursor;

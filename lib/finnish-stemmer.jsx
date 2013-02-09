@@ -308,7 +308,10 @@ class FinnishStemmer extends SnowballStemmer
                 break;
         }
         // delete, line 66
-        this.slice_del();
+        if (!this.slice_del())
+        {
+            return false;
+        }
         return true;
     }
 
@@ -365,12 +368,18 @@ class FinnishStemmer extends SnowballStemmer
                     this.cursor = this.limit - v_3;
                 }
                 // delete, line 72
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 74
                 // delete, line 74
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 // [, line 74
                 this.ket = this.cursor;
                 // literal, line 74
@@ -381,12 +390,18 @@ class FinnishStemmer extends SnowballStemmer
                 // ], line 74
                 this.bra = this.cursor;
                 // <-, line 74
-                this.slice_from("ksi");
+                if (!this.slice_from("ksi"))
+                {
+                    return false;
+                }
                 break;
             case 3:
                 // (, line 78
                 // delete, line 78
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 4:
                 // (, line 81
@@ -396,7 +411,10 @@ class FinnishStemmer extends SnowballStemmer
                     return false;
                 }
                 // delete, line 81
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 5:
                 // (, line 83
@@ -406,7 +424,10 @@ class FinnishStemmer extends SnowballStemmer
                     return false;
                 }
                 // delete, line 84
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 6:
                 // (, line 86
@@ -416,7 +437,10 @@ class FinnishStemmer extends SnowballStemmer
                     return false;
                 }
                 // delete, line 86
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -600,7 +624,10 @@ class FinnishStemmer extends SnowballStemmer
                 break;
         }
         // delete, line 138
-        this.slice_del();
+        if (!this.slice_del())
+        {
+            return false;
+        }
         // set ending_removed, line 139
         this.B_ending_removed = true;
         return true;
@@ -661,7 +688,10 @@ class FinnishStemmer extends SnowballStemmer
                 break;
         }
         // delete, line 151
-        this.slice_del();
+        if (!this.slice_del())
+        {
+            return false;
+        }
         return true;
     }
 
@@ -694,7 +724,10 @@ class FinnishStemmer extends SnowballStemmer
         this.bra = this.cursor;
         this.limit_backward = v_2;
         // delete, line 158
-        this.slice_del();
+        if (!this.slice_del())
+        {
+            return false;
+        }
         return true;
     }
 
@@ -739,7 +772,10 @@ class FinnishStemmer extends SnowballStemmer
         }
         this.cursor = this.limit - v_3;
         // delete, line 163
-        this.slice_del();
+        if (!this.slice_del())
+        {
+            return false;
+        }
         this.limit_backward = v_2;
         // setlimit, line 165
         v_4 = this.limit - this.cursor;
@@ -789,7 +825,10 @@ class FinnishStemmer extends SnowballStemmer
                 break;
         }
         // delete, line 170
-        this.slice_del();
+        if (!this.slice_del())
+        {
+            return false;
+        }
         return true;
     }
 
@@ -844,7 +883,10 @@ class FinnishStemmer extends SnowballStemmer
             // ], line 174
             this.bra = this.cursor;
             // delete, line 174
-            this.slice_del();
+            if (!this.slice_del())
+            {
+                return false;
+            }
         }
         this.cursor = this.limit - v_3;
         // do, line 175
@@ -867,7 +909,10 @@ class FinnishStemmer extends SnowballStemmer
                 break lab1;
             }
             // delete, line 175
-            this.slice_del();
+            if (!this.slice_del())
+            {
+                return false;
+            }
         }
         this.cursor = this.limit - v_5;
         // do, line 176
@@ -911,7 +956,10 @@ class FinnishStemmer extends SnowballStemmer
                 }
             }
             // delete, line 176
-            this.slice_del();
+            if (!this.slice_del())
+            {
+                return false;
+            }
         }
         this.cursor = this.limit - v_6;
         // do, line 177
@@ -936,7 +984,10 @@ class FinnishStemmer extends SnowballStemmer
                 break lab5;
             }
             // delete, line 177
-            this.slice_del();
+            if (!this.slice_del())
+            {
+                return false;
+            }
         }
         this.cursor = this.limit - v_8;
         this.limit_backward = v_2;
@@ -974,13 +1025,20 @@ class FinnishStemmer extends SnowballStemmer
         this.bra = this.cursor;
         // -> x, line 179
         this.S_x = this.slice_to(this.S_x);
+        if (S_x == null)
+        {
+            return false;
+        }
         // name x, line 179
         if (!(this.eq_v_b(this.S_x)))
         {
             return false;
         }
         // delete, line 179
-        this.slice_del();
+        if (!this.slice_del())
+        {
+            return false;
+        }
         return true;
     }
 

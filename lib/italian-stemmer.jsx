@@ -288,32 +288,50 @@ class ItalianStemmer extends SnowballStemmer
                     case 1:
                         // (, line 37
                         // <-, line 37
-                        this.slice_from("\u00E0");
+                        if (!this.slice_from("\u00E0"))
+                        {
+                            return false;
+                        }
                         break;
                     case 2:
                         // (, line 38
                         // <-, line 38
-                        this.slice_from("\u00E8");
+                        if (!this.slice_from("\u00E8"))
+                        {
+                            return false;
+                        }
                         break;
                     case 3:
                         // (, line 39
                         // <-, line 39
-                        this.slice_from("\u00EC");
+                        if (!this.slice_from("\u00EC"))
+                        {
+                            return false;
+                        }
                         break;
                     case 4:
                         // (, line 40
                         // <-, line 40
-                        this.slice_from("\u00F2");
+                        if (!this.slice_from("\u00F2"))
+                        {
+                            return false;
+                        }
                         break;
                     case 5:
                         // (, line 41
                         // <-, line 41
-                        this.slice_from("\u00F9");
+                        if (!this.slice_from("\u00F9"))
+                        {
+                            return false;
+                        }
                         break;
                     case 6:
                         // (, line 42
                         // <-, line 42
-                        this.slice_from("qU");
+                        if (!this.slice_from("qU"))
+                        {
+                            return false;
+                        }
                         break;
                     case 7:
                         // (, line 43
@@ -377,7 +395,10 @@ class ItalianStemmer extends SnowballStemmer
                                     break lab7;
                                 }
                                 // <-, line 47
-                                this.slice_from("U");
+                                if (!this.slice_from("U"))
+                                {
+                                    return false;
+                                }
                                 break lab6;
                             }
                             this.cursor = v_5;
@@ -394,7 +415,10 @@ class ItalianStemmer extends SnowballStemmer
                                 break lab5;
                             }
                             // <-, line 48
-                            this.slice_from("I");
+                            if (!this.slice_from("I"))
+                            {
+                                return false;
+                            }
                         }
                         this.cursor = v_4;
                         break golab4;
@@ -692,12 +716,18 @@ class ItalianStemmer extends SnowballStemmer
                     case 1:
                         // (, line 73
                         // <-, line 73
-                        this.slice_from("i");
+                        if (!this.slice_from("i"))
+                        {
+                            return false;
+                        }
                         break;
                     case 2:
                         // (, line 74
                         // <-, line 74
-                        this.slice_from("u");
+                        if (!this.slice_from("u"))
+                        {
+                            return false;
+                        }
                         break;
                     case 3:
                         // (, line 75
@@ -775,12 +805,18 @@ class ItalianStemmer extends SnowballStemmer
             case 1:
                 // (, line 98
                 // delete, line 98
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 99
                 // <-, line 99
-                this.slice_from("e");
+                if (!this.slice_from("e"))
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -815,7 +851,10 @@ class ItalianStemmer extends SnowballStemmer
                     return false;
                 }
                 // delete, line 111
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 113
@@ -825,7 +864,10 @@ class ItalianStemmer extends SnowballStemmer
                     return false;
                 }
                 // delete, line 113
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 // try, line 114
                 v_1 = this.limit - this.cursor;
                 var lab0 = true;
@@ -850,7 +892,10 @@ class ItalianStemmer extends SnowballStemmer
                         break lab0;
                     }
                     // delete, line 114
-                    this.slice_del();
+                    if (!this.slice_del())
+                    {
+                        return false;
+                    }
                 }
                 break;
             case 3:
@@ -861,7 +906,10 @@ class ItalianStemmer extends SnowballStemmer
                     return false;
                 }
                 // <-, line 117
-                this.slice_from("log");
+                if (!this.slice_from("log"))
+                {
+                    return false;
+                }
                 break;
             case 4:
                 // (, line 119
@@ -871,7 +919,10 @@ class ItalianStemmer extends SnowballStemmer
                     return false;
                 }
                 // <-, line 119
-                this.slice_from("u");
+                if (!this.slice_from("u"))
+                {
+                    return false;
+                }
                 break;
             case 5:
                 // (, line 121
@@ -881,7 +932,10 @@ class ItalianStemmer extends SnowballStemmer
                     return false;
                 }
                 // <-, line 121
-                this.slice_from("ente");
+                if (!this.slice_from("ente"))
+                {
+                    return false;
+                }
                 break;
             case 6:
                 // (, line 123
@@ -891,7 +945,10 @@ class ItalianStemmer extends SnowballStemmer
                     return false;
                 }
                 // delete, line 123
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 7:
                 // (, line 124
@@ -901,7 +958,10 @@ class ItalianStemmer extends SnowballStemmer
                     return false;
                 }
                 // delete, line 125
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 // try, line 126
                 v_2 = this.limit - this.cursor;
                 var lab1 = true;
@@ -927,7 +987,10 @@ class ItalianStemmer extends SnowballStemmer
                         break lab1;
                     }
                     // delete, line 127
-                    this.slice_del();
+                    if (!this.slice_del())
+                    {
+                        return false;
+                    }
                     switch (among_var) {
                         case 0:
                             this.cursor = this.limit - v_2;
@@ -951,7 +1014,10 @@ class ItalianStemmer extends SnowballStemmer
                                 break lab1;
                             }
                             // delete, line 128
-                            this.slice_del();
+                            if (!this.slice_del())
+                            {
+                                return false;
+                            }
                             break;
                     }
                 }
@@ -964,7 +1030,10 @@ class ItalianStemmer extends SnowballStemmer
                     return false;
                 }
                 // delete, line 134
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 // try, line 135
                 v_3 = this.limit - this.cursor;
                 var lab2 = true;
@@ -996,7 +1065,10 @@ class ItalianStemmer extends SnowballStemmer
                                 break lab2;
                             }
                             // delete, line 137
-                            this.slice_del();
+                            if (!this.slice_del())
+                            {
+                                return false;
+                            }
                             break;
                     }
                 }
@@ -1009,7 +1081,10 @@ class ItalianStemmer extends SnowballStemmer
                     return false;
                 }
                 // delete, line 142
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 // try, line 143
                 v_4 = this.limit - this.cursor;
                 var lab3 = true;
@@ -1034,7 +1109,10 @@ class ItalianStemmer extends SnowballStemmer
                         break lab3;
                     }
                     // delete, line 143
-                    this.slice_del();
+                    if (!this.slice_del())
+                    {
+                        return false;
+                    }
                     // [, line 143
                     this.ket = this.cursor;
                     // literal, line 143
@@ -1052,7 +1130,10 @@ class ItalianStemmer extends SnowballStemmer
                         break lab3;
                     }
                     // delete, line 143
-                    this.slice_del();
+                    if (!this.slice_del())
+                    {
+                        return false;
+                    }
                 }
                 break;
         }
@@ -1094,7 +1175,10 @@ class ItalianStemmer extends SnowballStemmer
             case 1:
                 // (, line 163
                 // delete, line 163
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
         }
         this.limit_backward = v_2;
@@ -1129,7 +1213,10 @@ class ItalianStemmer extends SnowballStemmer
                 break lab0;
             }
             // delete, line 172
-            this.slice_del();
+            if (!this.slice_del())
+            {
+                return false;
+            }
             // [, line 173
             this.ket = this.cursor;
             // literal, line 173
@@ -1147,7 +1234,10 @@ class ItalianStemmer extends SnowballStemmer
                 break lab0;
             }
             // delete, line 173
-            this.slice_del();
+            if (!this.slice_del())
+            {
+                return false;
+            }
         }
         // try, line 175
         v_2 = this.limit - this.cursor;
@@ -1178,7 +1268,10 @@ class ItalianStemmer extends SnowballStemmer
                 break lab1;
             }
             // delete, line 176
-            this.slice_del();
+            if (!this.slice_del())
+            {
+                return false;
+            }
         }
         return true;
     }

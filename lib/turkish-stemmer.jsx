@@ -1569,7 +1569,10 @@ class TurkishStemmer extends SnowballStemmer
                 // ], line 319
                 this.bra = this.cursor;
                 // delete, line 319
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 // try, line 319
                 v_4 = this.limit - this.cursor;
                 var lab14 = true;
@@ -1730,7 +1733,10 @@ class TurkishStemmer extends SnowballStemmer
                 // ], line 325
                 this.bra = this.cursor;
                 // delete, line 325
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 // try, line 325
                 v_8 = this.limit - this.cursor;
                 var lab27 = true;
@@ -1759,7 +1765,10 @@ class TurkishStemmer extends SnowballStemmer
             // ], line 327
             this.bra = this.cursor;
             // delete, line 327
-            this.slice_del();
+            if (!this.slice_del())
+            {
+                return false;
+            }
             // try, line 327
             v_9 = this.limit - this.cursor;
             var lab28 = true;
@@ -1848,7 +1857,10 @@ class TurkishStemmer extends SnowballStemmer
         // ], line 328
         this.bra = this.cursor;
         // delete, line 328
-        this.slice_del();
+        if (!this.slice_del())
+        {
+            return false;
+        }
         return true;
     }
 
@@ -1893,7 +1905,10 @@ class TurkishStemmer extends SnowballStemmer
                 // ], line 336
                 this.bra = this.cursor;
                 // delete, line 336
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 // try, line 336
                 v_2 = this.limit - this.cursor;
                 var lab2 = true;
@@ -1922,7 +1937,10 @@ class TurkishStemmer extends SnowballStemmer
                             // ], line 337
                             this.bra = this.cursor;
                             // delete, line 337
-                            this.slice_del();
+                            if (!this.slice_del())
+                            {
+                                return false;
+                            }
                             // try, line 337
                             v_4 = this.limit - this.cursor;
                             var lab5 = true;
@@ -1950,7 +1968,10 @@ class TurkishStemmer extends SnowballStemmer
                         // ], line 339
                         this.bra = this.cursor;
                         // delete, line 339
-                        this.slice_del();
+                        if (!this.slice_del())
+                        {
+                            return false;
+                        }
                         // try, line 339
                         v_5 = this.limit - this.cursor;
                         var lab6 = true;
@@ -1969,7 +1990,10 @@ class TurkishStemmer extends SnowballStemmer
                             // ], line 339
                             this.bra = this.cursor;
                             // delete, line 339
-                            this.slice_del();
+                            if (!this.slice_del())
+                            {
+                                return false;
+                            }
                             // call stem_suffix_chain_before_ki, line 339
                             if (!this.r_stem_suffix_chain_before_ki())
                             {
@@ -1995,7 +2019,10 @@ class TurkishStemmer extends SnowballStemmer
                 // ], line 343
                 this.bra = this.cursor;
                 // delete, line 343
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 // try, line 343
                 v_6 = this.limit - this.cursor;
                 var lab8 = true;
@@ -2024,7 +2051,10 @@ class TurkishStemmer extends SnowballStemmer
                             // ], line 344
                             this.bra = this.cursor;
                             // delete, line 344
-                            this.slice_del();
+                            if (!this.slice_del())
+                            {
+                                return false;
+                            }
                             break lab9;
                         }
                         this.cursor = this.limit - v_7;
@@ -2062,7 +2092,10 @@ class TurkishStemmer extends SnowballStemmer
                             // ], line 346
                             this.bra = this.cursor;
                             // delete, line 346
-                            this.slice_del();
+                            if (!this.slice_del())
+                            {
+                                return false;
+                            }
                             // try, line 346
                             v_9 = this.limit - this.cursor;
                             var lab14 = true;
@@ -2081,7 +2114,10 @@ class TurkishStemmer extends SnowballStemmer
                                 // ], line 346
                                 this.bra = this.cursor;
                                 // delete, line 346
-                                this.slice_del();
+                                if (!this.slice_del())
+                                {
+                                    return false;
+                                }
                                 // call stem_suffix_chain_before_ki, line 346
                                 if (!this.r_stem_suffix_chain_before_ki())
                                 {
@@ -2130,7 +2166,10 @@ class TurkishStemmer extends SnowballStemmer
                     // ], line 352
                     this.bra = this.cursor;
                     // delete, line 352
-                    this.slice_del();
+                    if (!this.slice_del())
+                    {
+                        return false;
+                    }
                     break lab15;
                 }
                 this.cursor = this.limit - v_10;
@@ -2148,7 +2187,10 @@ class TurkishStemmer extends SnowballStemmer
                     // ], line 354
                     this.bra = this.cursor;
                     // delete, line 354
-                    this.slice_del();
+                    if (!this.slice_del())
+                    {
+                        return false;
+                    }
                     // try, line 354
                     v_11 = this.limit - this.cursor;
                     var lab18 = true;
@@ -2167,7 +2209,10 @@ class TurkishStemmer extends SnowballStemmer
                         // ], line 354
                         this.bra = this.cursor;
                         // delete, line 354
-                        this.slice_del();
+                        if (!this.slice_del())
+                        {
+                            return false;
+                        }
                         // call stem_suffix_chain_before_ki, line 354
                         if (!this.r_stem_suffix_chain_before_ki())
                         {
@@ -2240,7 +2285,10 @@ class TurkishStemmer extends SnowballStemmer
                 // ], line 362
                 this.bra = this.cursor;
                 // delete, line 362
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 // try, line 362
                 v_2 = this.limit - this.cursor;
                 var lab2 = true;
@@ -2273,7 +2321,10 @@ class TurkishStemmer extends SnowballStemmer
                 // ], line 364
                 this.bra = this.cursor;
                 // delete, line 364
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 // try, line 365
                 v_3 = this.limit - this.cursor;
                 var lab4 = true;
@@ -2302,7 +2353,10 @@ class TurkishStemmer extends SnowballStemmer
                             // ], line 366
                             this.bra = this.cursor;
                             // delete, line 366
-                            this.slice_del();
+                            if (!this.slice_del())
+                            {
+                                return false;
+                            }
                             break lab5;
                         }
                         this.cursor = this.limit - v_4;
@@ -2340,7 +2394,10 @@ class TurkishStemmer extends SnowballStemmer
                             // ], line 368
                             this.bra = this.cursor;
                             // delete, line 368
-                            this.slice_del();
+                            if (!this.slice_del())
+                            {
+                                return false;
+                            }
                             // try, line 368
                             v_6 = this.limit - this.cursor;
                             var lab10 = true;
@@ -2359,7 +2416,10 @@ class TurkishStemmer extends SnowballStemmer
                                 // ], line 368
                                 this.bra = this.cursor;
                                 // delete, line 368
-                                this.slice_del();
+                                if (!this.slice_del())
+                                {
+                                    return false;
+                                }
                                 // call stem_suffix_chain_before_ki, line 368
                                 if (!this.r_stem_suffix_chain_before_ki())
                                 {
@@ -2382,7 +2442,10 @@ class TurkishStemmer extends SnowballStemmer
                         // ], line 370
                         this.bra = this.cursor;
                         // delete, line 370
-                        this.slice_del();
+                        if (!this.slice_del())
+                        {
+                            return false;
+                        }
                         // call stem_suffix_chain_before_ki, line 370
                         if (!this.r_stem_suffix_chain_before_ki())
                         {
@@ -2446,7 +2509,10 @@ class TurkishStemmer extends SnowballStemmer
                         // ], line 376
                         this.bra = this.cursor;
                         // delete, line 376
-                        this.slice_del();
+                        if (!this.slice_del())
+                        {
+                            return false;
+                        }
                         break lab14;
                     }
                     this.cursor = this.limit - v_8;
@@ -2463,7 +2529,10 @@ class TurkishStemmer extends SnowballStemmer
                         // ], line 378
                         this.bra = this.cursor;
                         // delete, line 378
-                        this.slice_del();
+                        if (!this.slice_del())
+                        {
+                            return false;
+                        }
                         // try, line 378
                         v_9 = this.limit - this.cursor;
                         var lab17 = true;
@@ -2482,7 +2551,10 @@ class TurkishStemmer extends SnowballStemmer
                             // ], line 378
                             this.bra = this.cursor;
                             // delete, line 378
-                            this.slice_del();
+                            if (!this.slice_del())
+                            {
+                                return false;
+                            }
                             // call stem_suffix_chain_before_ki, line 378
                             if (!this.r_stem_suffix_chain_before_ki())
                             {
@@ -2555,7 +2627,10 @@ class TurkishStemmer extends SnowballStemmer
                         // ], line 384
                         this.bra = this.cursor;
                         // delete, line 384
-                        this.slice_del();
+                        if (!this.slice_del())
+                        {
+                            return false;
+                        }
                         // try, line 384
                         v_12 = this.limit - this.cursor;
                         var lab23 = true;
@@ -2574,7 +2649,10 @@ class TurkishStemmer extends SnowballStemmer
                             // ], line 384
                             this.bra = this.cursor;
                             // delete, line 384
-                            this.slice_del();
+                            if (!this.slice_del())
+                            {
+                                return false;
+                            }
                             // call stem_suffix_chain_before_ki, line 384
                             if (!this.r_stem_suffix_chain_before_ki())
                             {
@@ -2610,7 +2688,10 @@ class TurkishStemmer extends SnowballStemmer
                 // ], line 386
                 this.bra = this.cursor;
                 // delete, line 386
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 // try, line 386
                 v_13 = this.limit - this.cursor;
                 var lab25 = true;
@@ -2640,7 +2721,10 @@ class TurkishStemmer extends SnowballStemmer
                             // ], line 388
                             this.bra = this.cursor;
                             // delete, line 388
-                            this.slice_del();
+                            if (!this.slice_del())
+                            {
+                                return false;
+                            }
                             // try, line 388
                             v_15 = this.limit - this.cursor;
                             var lab28 = true;
@@ -2659,7 +2743,10 @@ class TurkishStemmer extends SnowballStemmer
                                 // ], line 388
                                 this.bra = this.cursor;
                                 // delete, line 388
-                                this.slice_del();
+                                if (!this.slice_del())
+                                {
+                                    return false;
+                                }
                                 // call stem_suffix_chain_before_ki, line 388
                                 if (!this.r_stem_suffix_chain_before_ki())
                                 {
@@ -2683,7 +2770,10 @@ class TurkishStemmer extends SnowballStemmer
                             // ], line 390
                             this.bra = this.cursor;
                             // delete, line 390
-                            this.slice_del();
+                            if (!this.slice_del())
+                            {
+                                return false;
+                            }
                             // try, line 390
                             v_16 = this.limit - this.cursor;
                             var lab30 = true;
@@ -2747,7 +2837,10 @@ class TurkishStemmer extends SnowballStemmer
                 // ], line 396
                 this.bra = this.cursor;
                 // delete, line 396
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 // try, line 397
                 v_18 = this.limit - this.cursor;
                 var lab34 = true;
@@ -2776,7 +2869,10 @@ class TurkishStemmer extends SnowballStemmer
                             // ], line 398
                             this.bra = this.cursor;
                             // delete, line 398
-                            this.slice_del();
+                            if (!this.slice_del())
+                            {
+                                return false;
+                            }
                             // call stem_suffix_chain_before_ki, line 398
                             if (!this.r_stem_suffix_chain_before_ki())
                             {
@@ -2819,7 +2915,10 @@ class TurkishStemmer extends SnowballStemmer
                             // ], line 400
                             this.bra = this.cursor;
                             // delete, line 400
-                            this.slice_del();
+                            if (!this.slice_del())
+                            {
+                                return false;
+                            }
                             // try, line 400
                             v_21 = this.limit - this.cursor;
                             var lab40 = true;
@@ -2838,7 +2937,10 @@ class TurkishStemmer extends SnowballStemmer
                                 // ], line 400
                                 this.bra = this.cursor;
                                 // delete, line 400
-                                this.slice_del();
+                                if (!this.slice_del())
+                                {
+                                    return false;
+                                }
                                 // call stem_suffix_chain_before_ki, line 400
                                 if (!this.r_stem_suffix_chain_before_ki())
                                 {
@@ -2875,7 +2977,10 @@ class TurkishStemmer extends SnowballStemmer
                 // ], line 406
                 this.bra = this.cursor;
                 // delete, line 406
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break lab0;
             }
             this.cursor = this.limit - v_1;
@@ -2938,7 +3043,10 @@ class TurkishStemmer extends SnowballStemmer
                 // ], line 410
                 this.bra = this.cursor;
                 // delete, line 410
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 // try, line 410
                 v_23 = this.limit - this.cursor;
                 var lab47 = true;
@@ -2968,7 +3076,10 @@ class TurkishStemmer extends SnowballStemmer
                             // ], line 410
                             this.bra = this.cursor;
                             // delete, line 410
-                            this.slice_del();
+                            if (!this.slice_del())
+                            {
+                                return false;
+                            }
                             // try, line 410
                             v_25 = this.limit - this.cursor;
                             var lab50 = true;
@@ -2998,7 +3109,10 @@ class TurkishStemmer extends SnowballStemmer
                     // ], line 410
                     this.bra = this.cursor;
                     // delete, line 410
-                    this.slice_del();
+                    if (!this.slice_del())
+                    {
+                        return false;
+                    }
                     // [, line 410
                     this.ket = this.cursor;
                     // call stem_suffix_chain_before_ki, line 410
@@ -3041,7 +3155,10 @@ class TurkishStemmer extends SnowballStemmer
             // ], line 412
             this.bra = this.cursor;
             // delete, line 412
-            this.slice_del();
+            if (!this.slice_del())
+            {
+                return false;
+            }
             // try, line 412
             v_27 = this.limit - this.cursor;
             var lab53 = true;
@@ -3060,7 +3177,10 @@ class TurkishStemmer extends SnowballStemmer
                 // ], line 412
                 this.bra = this.cursor;
                 // delete, line 412
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 // call stem_suffix_chain_before_ki, line 412
                 if (!this.r_stem_suffix_chain_before_ki())
                 {
@@ -3092,22 +3212,34 @@ class TurkishStemmer extends SnowballStemmer
             case 1:
                 // (, line 417
                 // <-, line 417
-                this.slice_from("p");
+                if (!this.slice_from("p"))
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 418
                 // <-, line 418
-                this.slice_from("\u00E7");
+                if (!this.slice_from("\u00E7"))
+                {
+                    return false;
+                }
                 break;
             case 3:
                 // (, line 419
                 // <-, line 419
-                this.slice_from("t");
+                if (!this.slice_from("t"))
+                {
+                    return false;
+                }
                 break;
             case 4:
                 // (, line 420
                 // <-, line 420
-                this.slice_from("k");
+                if (!this.slice_from("k"))
+                {
+                    return false;
+                }
                 break;
         }
         return true;

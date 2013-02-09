@@ -201,7 +201,10 @@ class EnglishStemmer extends SnowballStemmer
             // ], line 27
             this.ket = this.cursor;
             // delete, line 27
-            this.slice_del();
+            if (!this.slice_del())
+            {
+                return false;
+            }
         }
         this.cursor = v_1;
         // do, line 28
@@ -221,7 +224,10 @@ class EnglishStemmer extends SnowballStemmer
             // ], line 28
             this.ket = this.cursor;
             // <-, line 28
-            this.slice_from("Y");
+            if (!this.slice_from("Y"))
+            {
+                return false;
+            }
             // set Y_found, line 28
             this.B_Y_found = true;
         }
@@ -274,7 +280,10 @@ class EnglishStemmer extends SnowballStemmer
                         this.cursor++;
                     }
                     // <-, line 29
-                    this.slice_from("Y");
+                    if (!this.slice_from("Y"))
+                    {
+                        return false;
+                    }
                     // set Y_found, line 29
                     this.B_Y_found = true;
                     continue replab3;
@@ -503,7 +512,10 @@ class EnglishStemmer extends SnowballStemmer
                 case 1:
                     // (, line 62
                     // delete, line 62
-                    this.slice_del();
+                    if (!this.slice_del())
+                    {
+                        return false;
+                    }
                     break;
             }
         }
@@ -523,7 +535,10 @@ class EnglishStemmer extends SnowballStemmer
             case 1:
                 // (, line 66
                 // <-, line 66
-                this.slice_from("ss");
+                if (!this.slice_from("ss"))
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 68
@@ -548,12 +563,18 @@ class EnglishStemmer extends SnowballStemmer
                             this.cursor = c;
                         }
                         // <-, line 68
-                        this.slice_from("i");
+                        if (!this.slice_from("i"))
+                        {
+                            return false;
+                        }
                         break lab1;
                     }
                     this.cursor = this.limit - v_2;
                     // <-, line 68
-                    this.slice_from("ie");
+                    if (!this.slice_from("ie"))
+                    {
+                        return false;
+                    }
                 }
                 break;
             case 3:
@@ -584,7 +605,10 @@ class EnglishStemmer extends SnowballStemmer
                     this.cursor--;
                 }
                 // delete, line 69
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -618,7 +642,10 @@ class EnglishStemmer extends SnowballStemmer
                     return false;
                 }
                 // <-, line 77
-                this.slice_from("ee");
+                if (!this.slice_from("ee"))
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 79
@@ -645,7 +672,10 @@ class EnglishStemmer extends SnowballStemmer
                 }
                 this.cursor = this.limit - v_1;
                 // delete, line 80
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 // test, line 81
                 v_3 = this.limit - this.cursor;
                 // substring, line 81
@@ -680,7 +710,10 @@ class EnglishStemmer extends SnowballStemmer
                         // ], line 86
                         this.bra = this.cursor;
                         // delete, line 86
-                        this.slice_del();
+                        if (!this.slice_del())
+                        {
+                            return false;
+                        }
                         break;
                     case 3:
                         // (, line 87
@@ -764,7 +797,10 @@ class EnglishStemmer extends SnowballStemmer
             this.cursor = this.limit - v_2;
         }
         // <-, line 96
-        this.slice_from("i");
+        if (!this.slice_from("i"))
+        {
+            return false;
+        }
         return true;
     }
 
@@ -793,62 +829,98 @@ class EnglishStemmer extends SnowballStemmer
             case 1:
                 // (, line 101
                 // <-, line 101
-                this.slice_from("tion");
+                if (!this.slice_from("tion"))
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 102
                 // <-, line 102
-                this.slice_from("ence");
+                if (!this.slice_from("ence"))
+                {
+                    return false;
+                }
                 break;
             case 3:
                 // (, line 103
                 // <-, line 103
-                this.slice_from("ance");
+                if (!this.slice_from("ance"))
+                {
+                    return false;
+                }
                 break;
             case 4:
                 // (, line 104
                 // <-, line 104
-                this.slice_from("able");
+                if (!this.slice_from("able"))
+                {
+                    return false;
+                }
                 break;
             case 5:
                 // (, line 105
                 // <-, line 105
-                this.slice_from("ent");
+                if (!this.slice_from("ent"))
+                {
+                    return false;
+                }
                 break;
             case 6:
                 // (, line 107
                 // <-, line 107
-                this.slice_from("ize");
+                if (!this.slice_from("ize"))
+                {
+                    return false;
+                }
                 break;
             case 7:
                 // (, line 109
                 // <-, line 109
-                this.slice_from("ate");
+                if (!this.slice_from("ate"))
+                {
+                    return false;
+                }
                 break;
             case 8:
                 // (, line 111
                 // <-, line 111
-                this.slice_from("al");
+                if (!this.slice_from("al"))
+                {
+                    return false;
+                }
                 break;
             case 9:
                 // (, line 112
                 // <-, line 112
-                this.slice_from("ful");
+                if (!this.slice_from("ful"))
+                {
+                    return false;
+                }
                 break;
             case 10:
                 // (, line 114
                 // <-, line 114
-                this.slice_from("ous");
+                if (!this.slice_from("ous"))
+                {
+                    return false;
+                }
                 break;
             case 11:
                 // (, line 116
                 // <-, line 116
-                this.slice_from("ive");
+                if (!this.slice_from("ive"))
+                {
+                    return false;
+                }
                 break;
             case 12:
                 // (, line 118
                 // <-, line 118
-                this.slice_from("ble");
+                if (!this.slice_from("ble"))
+                {
+                    return false;
+                }
                 break;
             case 13:
                 // (, line 119
@@ -858,17 +930,26 @@ class EnglishStemmer extends SnowballStemmer
                     return false;
                 }
                 // <-, line 119
-                this.slice_from("og");
+                if (!this.slice_from("og"))
+                {
+                    return false;
+                }
                 break;
             case 14:
                 // (, line 120
                 // <-, line 120
-                this.slice_from("ful");
+                if (!this.slice_from("ful"))
+                {
+                    return false;
+                }
                 break;
             case 15:
                 // (, line 121
                 // <-, line 121
-                this.slice_from("less");
+                if (!this.slice_from("less"))
+                {
+                    return false;
+                }
                 break;
             case 16:
                 // (, line 122
@@ -877,7 +958,10 @@ class EnglishStemmer extends SnowballStemmer
                     return false;
                 }
                 // delete, line 122
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -908,27 +992,42 @@ class EnglishStemmer extends SnowballStemmer
             case 1:
                 // (, line 128
                 // <-, line 128
-                this.slice_from("tion");
+                if (!this.slice_from("tion"))
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 129
                 // <-, line 129
-                this.slice_from("ate");
+                if (!this.slice_from("ate"))
+                {
+                    return false;
+                }
                 break;
             case 3:
                 // (, line 130
                 // <-, line 130
-                this.slice_from("al");
+                if (!this.slice_from("al"))
+                {
+                    return false;
+                }
                 break;
             case 4:
                 // (, line 132
                 // <-, line 132
-                this.slice_from("ic");
+                if (!this.slice_from("ic"))
+                {
+                    return false;
+                }
                 break;
             case 5:
                 // (, line 134
                 // delete, line 134
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 6:
                 // (, line 136
@@ -938,7 +1037,10 @@ class EnglishStemmer extends SnowballStemmer
                     return false;
                 }
                 // delete, line 136
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -970,7 +1072,10 @@ class EnglishStemmer extends SnowballStemmer
             case 1:
                 // (, line 144
                 // delete, line 144
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 145
@@ -999,7 +1104,10 @@ class EnglishStemmer extends SnowballStemmer
                     }
                 }
                 // delete, line 145
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -1068,7 +1176,10 @@ class EnglishStemmer extends SnowballStemmer
                     }
                 }
                 // delete, line 151
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 152
@@ -1083,7 +1194,10 @@ class EnglishStemmer extends SnowballStemmer
                     return false;
                 }
                 // delete, line 152
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -1134,57 +1248,90 @@ class EnglishStemmer extends SnowballStemmer
             case 1:
                 // (, line 174
                 // <-, line 174
-                this.slice_from("ski");
+                if (!this.slice_from("ski"))
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 175
                 // <-, line 175
-                this.slice_from("sky");
+                if (!this.slice_from("sky"))
+                {
+                    return false;
+                }
                 break;
             case 3:
                 // (, line 176
                 // <-, line 176
-                this.slice_from("die");
+                if (!this.slice_from("die"))
+                {
+                    return false;
+                }
                 break;
             case 4:
                 // (, line 177
                 // <-, line 177
-                this.slice_from("lie");
+                if (!this.slice_from("lie"))
+                {
+                    return false;
+                }
                 break;
             case 5:
                 // (, line 178
                 // <-, line 178
-                this.slice_from("tie");
+                if (!this.slice_from("tie"))
+                {
+                    return false;
+                }
                 break;
             case 6:
                 // (, line 182
                 // <-, line 182
-                this.slice_from("idl");
+                if (!this.slice_from("idl"))
+                {
+                    return false;
+                }
                 break;
             case 7:
                 // (, line 183
                 // <-, line 183
-                this.slice_from("gentl");
+                if (!this.slice_from("gentl"))
+                {
+                    return false;
+                }
                 break;
             case 8:
                 // (, line 184
                 // <-, line 184
-                this.slice_from("ugli");
+                if (!this.slice_from("ugli"))
+                {
+                    return false;
+                }
                 break;
             case 9:
                 // (, line 185
                 // <-, line 185
-                this.slice_from("earli");
+                if (!this.slice_from("earli"))
+                {
+                    return false;
+                }
                 break;
             case 10:
                 // (, line 186
                 // <-, line 186
-                this.slice_from("onli");
+                if (!this.slice_from("onli"))
+                {
+                    return false;
+                }
                 break;
             case 11:
                 // (, line 187
                 // <-, line 187
-                this.slice_from("singl");
+                if (!this.slice_from("singl"))
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -1238,7 +1385,10 @@ class EnglishStemmer extends SnowballStemmer
                     this.cursor++;
                 }
                 // <-, line 203
-                this.slice_from("y");
+                if (!this.slice_from("y"))
+                {
+                    return false;
+                }
                 continue replab0;
             }
             this.cursor = v_1;

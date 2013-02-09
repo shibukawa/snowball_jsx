@@ -325,7 +325,10 @@ class RomanianStemmer extends SnowballStemmer
                                     break lab5;
                                 }
                                 // <-, line 33
-                                this.slice_from("U");
+                                if (!this.slice_from("U"))
+                                {
+                                    return false;
+                                }
                                 break lab4;
                             }
                             this.cursor = v_3;
@@ -342,7 +345,10 @@ class RomanianStemmer extends SnowballStemmer
                                 break lab3;
                             }
                             // <-, line 34
-                            this.slice_from("I");
+                            if (!this.slice_from("I"))
+                            {
+                                return false;
+                            }
                         }
                         this.cursor = v_2;
                         break golab2;
@@ -640,12 +646,18 @@ class RomanianStemmer extends SnowballStemmer
                     case 1:
                         // (, line 59
                         // <-, line 59
-                        this.slice_from("i");
+                        if (!this.slice_from("i"))
+                        {
+                            return false;
+                        }
                         break;
                     case 2:
                         // (, line 60
                         // <-, line 60
-                        this.slice_from("u");
+                        if (!this.slice_from("u"))
+                        {
+                            return false;
+                        }
                         break;
                     case 3:
                         // (, line 61
@@ -718,22 +730,34 @@ class RomanianStemmer extends SnowballStemmer
             case 1:
                 // (, line 75
                 // delete, line 75
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 77
                 // <-, line 77
-                this.slice_from("a");
+                if (!this.slice_from("a"))
+                {
+                    return false;
+                }
                 break;
             case 3:
                 // (, line 79
                 // <-, line 79
-                this.slice_from("e");
+                if (!this.slice_from("e"))
+                {
+                    return false;
+                }
                 break;
             case 4:
                 // (, line 81
                 // <-, line 81
-                this.slice_from("i");
+                if (!this.slice_from("i"))
+                {
+                    return false;
+                }
                 break;
             case 5:
                 // (, line 83
@@ -754,17 +778,26 @@ class RomanianStemmer extends SnowballStemmer
                     this.cursor = this.limit - v_1;
                 }
                 // <-, line 83
-                this.slice_from("i");
+                if (!this.slice_from("i"))
+                {
+                    return false;
+                }
                 break;
             case 6:
                 // (, line 85
                 // <-, line 85
-                this.slice_from("at");
+                if (!this.slice_from("at"))
+                {
+                    return false;
+                }
                 break;
             case 7:
                 // (, line 87
                 // <-, line 87
-                this.slice_from("a\u0163i");
+                if (!this.slice_from("a\u0163i"))
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -799,32 +832,50 @@ class RomanianStemmer extends SnowballStemmer
             case 1:
                 // (, line 100
                 // <-, line 101
-                this.slice_from("abil");
+                if (!this.slice_from("abil"))
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 103
                 // <-, line 104
-                this.slice_from("ibil");
+                if (!this.slice_from("ibil"))
+                {
+                    return false;
+                }
                 break;
             case 3:
                 // (, line 106
                 // <-, line 107
-                this.slice_from("iv");
+                if (!this.slice_from("iv"))
+                {
+                    return false;
+                }
                 break;
             case 4:
                 // (, line 112
                 // <-, line 113
-                this.slice_from("ic");
+                if (!this.slice_from("ic"))
+                {
+                    return false;
+                }
                 break;
             case 5:
                 // (, line 117
                 // <-, line 118
-                this.slice_from("at");
+                if (!this.slice_from("at"))
+                {
+                    return false;
+                }
                 break;
             case 6:
                 // (, line 121
                 // <-, line 122
-                this.slice_from("it");
+                if (!this.slice_from("it"))
+                {
+                    return false;
+                }
                 break;
         }
         // set standard_suffix_removed, line 125
@@ -880,7 +931,10 @@ class RomanianStemmer extends SnowballStemmer
             case 1:
                 // (, line 148
                 // delete, line 149
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 151
@@ -892,12 +946,18 @@ class RomanianStemmer extends SnowballStemmer
                 // ], line 152
                 this.bra = this.cursor;
                 // <-, line 152
-                this.slice_from("t");
+                if (!this.slice_from("t"))
+                {
+                    return false;
+                }
                 break;
             case 3:
                 // (, line 155
                 // <-, line 156
-                this.slice_from("ist");
+                if (!this.slice_from("ist"))
+                {
+                    return false;
+                }
                 break;
         }
         // set standard_suffix_removed, line 160
@@ -965,12 +1025,18 @@ class RomanianStemmer extends SnowballStemmer
                     }
                 }
                 // delete, line 200
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 214
                 // delete, line 214
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
         }
         this.limit_backward = v_2;
@@ -1002,7 +1068,10 @@ class RomanianStemmer extends SnowballStemmer
             case 1:
                 // (, line 220
                 // delete, line 220
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
         }
         return true;

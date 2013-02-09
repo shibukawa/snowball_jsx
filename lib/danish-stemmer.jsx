@@ -194,7 +194,10 @@ class DanishStemmer extends SnowballStemmer
             case 1:
                 // (, line 48
                 // delete, line 48
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 50
@@ -203,7 +206,10 @@ class DanishStemmer extends SnowballStemmer
                     return false;
                 }
                 // delete, line 50
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -251,7 +257,10 @@ class DanishStemmer extends SnowballStemmer
         // ], line 62
         this.bra = this.cursor;
         // delete, line 62
-        this.slice_del();
+        if (!this.slice_del())
+        {
+            return false;
+        }
         return true;
     }
 
@@ -285,7 +294,10 @@ class DanishStemmer extends SnowballStemmer
                 break lab0;
             }
             // delete, line 66
-            this.slice_del();
+            if (!this.slice_del())
+            {
+                return false;
+            }
         }
         this.cursor = this.limit - v_1;
         // setlimit, line 67
@@ -318,7 +330,10 @@ class DanishStemmer extends SnowballStemmer
             case 1:
                 // (, line 70
                 // delete, line 70
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 // do, line 70
                 v_4 = this.limit - this.cursor;
                 var lab1 = true;
@@ -336,7 +351,10 @@ class DanishStemmer extends SnowballStemmer
             case 2:
                 // (, line 72
                 // <-, line 72
-                this.slice_from("l\u00F8s");
+                if (!this.slice_from("l\u00F8s"))
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -370,6 +388,10 @@ class DanishStemmer extends SnowballStemmer
         this.bra = this.cursor;
         // -> ch, line 76
         this.S_ch = this.slice_to(this.S_ch);
+        if (S_ch == null)
+        {
+            return false;
+        }
         this.limit_backward = v_2;
         // name ch, line 77
         if (!(this.eq_v_b(this.S_ch)))
@@ -377,7 +399,10 @@ class DanishStemmer extends SnowballStemmer
             return false;
         }
         // delete, line 78
-        this.slice_del();
+        if (!this.slice_del())
+        {
+            return false;
+        }
         return true;
     }
 

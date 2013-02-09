@@ -275,12 +275,18 @@ class PortugueseStemmer extends SnowballStemmer
                     case 1:
                         // (, line 38
                         // <-, line 38
-                        this.slice_from("a~");
+                        if (!this.slice_from("a~"))
+                        {
+                            return false;
+                        }
                         break;
                     case 2:
                         // (, line 39
                         // <-, line 39
-                        this.slice_from("o~");
+                        if (!this.slice_from("o~"))
+                        {
+                            return false;
+                        }
                         break;
                     case 3:
                         // (, line 40
@@ -578,12 +584,18 @@ class PortugueseStemmer extends SnowballStemmer
                     case 1:
                         // (, line 64
                         // <-, line 64
-                        this.slice_from("\u00E3");
+                        if (!this.slice_from("\u00E3"))
+                        {
+                            return false;
+                        }
                         break;
                     case 2:
                         // (, line 65
                         // <-, line 65
-                        this.slice_from("\u00F5");
+                        if (!this.slice_from("\u00F5"))
+                        {
+                            return false;
+                        }
                         break;
                     case 3:
                         // (, line 66
@@ -659,7 +671,10 @@ class PortugueseStemmer extends SnowballStemmer
                     return false;
                 }
                 // delete, line 93
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 97
@@ -669,7 +684,10 @@ class PortugueseStemmer extends SnowballStemmer
                     return false;
                 }
                 // <-, line 98
-                this.slice_from("log");
+                if (!this.slice_from("log"))
+                {
+                    return false;
+                }
                 break;
             case 3:
                 // (, line 101
@@ -679,7 +697,10 @@ class PortugueseStemmer extends SnowballStemmer
                     return false;
                 }
                 // <-, line 102
-                this.slice_from("u");
+                if (!this.slice_from("u"))
+                {
+                    return false;
+                }
                 break;
             case 4:
                 // (, line 105
@@ -689,7 +710,10 @@ class PortugueseStemmer extends SnowballStemmer
                     return false;
                 }
                 // <-, line 106
-                this.slice_from("ente");
+                if (!this.slice_from("ente"))
+                {
+                    return false;
+                }
                 break;
             case 5:
                 // (, line 109
@@ -699,7 +723,10 @@ class PortugueseStemmer extends SnowballStemmer
                     return false;
                 }
                 // delete, line 110
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 // try, line 111
                 v_1 = this.limit - this.cursor;
                 var lab0 = true;
@@ -725,7 +752,10 @@ class PortugueseStemmer extends SnowballStemmer
                         break lab0;
                     }
                     // delete, line 112
-                    this.slice_del();
+                    if (!this.slice_del())
+                    {
+                        return false;
+                    }
                     switch (among_var) {
                         case 0:
                             this.cursor = this.limit - v_1;
@@ -749,7 +779,10 @@ class PortugueseStemmer extends SnowballStemmer
                                 break lab0;
                             }
                             // delete, line 113
-                            this.slice_del();
+                            if (!this.slice_del())
+                            {
+                                return false;
+                            }
                             break;
                     }
                 }
@@ -762,7 +795,10 @@ class PortugueseStemmer extends SnowballStemmer
                     return false;
                 }
                 // delete, line 122
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 // try, line 123
                 v_2 = this.limit - this.cursor;
                 var lab1 = true;
@@ -794,7 +830,10 @@ class PortugueseStemmer extends SnowballStemmer
                                 break lab1;
                             }
                             // delete, line 127
-                            this.slice_del();
+                            if (!this.slice_del())
+                            {
+                                return false;
+                            }
                             break;
                     }
                 }
@@ -807,7 +846,10 @@ class PortugueseStemmer extends SnowballStemmer
                     return false;
                 }
                 // delete, line 134
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 // try, line 135
                 v_3 = this.limit - this.cursor;
                 var lab2 = true;
@@ -839,7 +881,10 @@ class PortugueseStemmer extends SnowballStemmer
                                 break lab2;
                             }
                             // delete, line 139
-                            this.slice_del();
+                            if (!this.slice_del())
+                            {
+                                return false;
+                            }
                             break;
                     }
                 }
@@ -852,7 +897,10 @@ class PortugueseStemmer extends SnowballStemmer
                     return false;
                 }
                 // delete, line 146
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 // try, line 147
                 v_4 = this.limit - this.cursor;
                 var lab3 = true;
@@ -877,7 +925,10 @@ class PortugueseStemmer extends SnowballStemmer
                         break lab3;
                     }
                     // delete, line 148
-                    this.slice_del();
+                    if (!this.slice_del())
+                    {
+                        return false;
+                    }
                 }
                 break;
             case 9:
@@ -893,7 +944,10 @@ class PortugueseStemmer extends SnowballStemmer
                     return false;
                 }
                 // <-, line 154
-                this.slice_from("ir");
+                if (!this.slice_from("ir"))
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -934,7 +988,10 @@ class PortugueseStemmer extends SnowballStemmer
             case 1:
                 // (, line 179
                 // delete, line 179
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
         }
         this.limit_backward = v_2;
@@ -966,7 +1023,10 @@ class PortugueseStemmer extends SnowballStemmer
                     return false;
                 }
                 // delete, line 187
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -1000,7 +1060,10 @@ class PortugueseStemmer extends SnowballStemmer
                     return false;
                 }
                 // delete, line 194
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 // [, line 194
                 this.ket = this.cursor;
                 // or, line 194
@@ -1055,12 +1118,18 @@ class PortugueseStemmer extends SnowballStemmer
                     return false;
                 }
                 // delete, line 195
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 196
                 // <-, line 196
-                this.slice_from("c");
+                if (!this.slice_from("c"))
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -1184,7 +1253,10 @@ class PortugueseStemmer extends SnowballStemmer
                             break lab7;
                         }
                         // delete, line 207
-                        this.slice_del();
+                        if (!this.slice_del())
+                        {
+                            return false;
+                        }
                     }
                     this.cursor = this.limit - v_7;
                     break lab3;

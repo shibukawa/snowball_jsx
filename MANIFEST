@@ -16,6 +16,7 @@ lib/romanian-stemmer.jsx
 lib/russian-stemmer.jsx
 lib/snowball-stemmer.jsx
 lib/spanish-stemmer.jsx
+lib/stemmer.jsx
 lib/swedish-stemmer.jsx
 lib/turkish-stemmer.jsx
 sample/stemwords.jsx

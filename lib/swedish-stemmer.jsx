@@ -200,7 +200,10 @@ class SwedishStemmer extends SnowballStemmer
             case 1:
                 // (, line 44
                 // delete, line 44
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 46
@@ -209,7 +212,10 @@ class SwedishStemmer extends SnowballStemmer
                     return false;
                 }
                 // delete, line 46
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -254,7 +260,10 @@ class SwedishStemmer extends SnowballStemmer
         // ], line 52
         this.bra = this.cursor;
         // delete, line 52
-        this.slice_del();
+        if (!this.slice_del())
+        {
+            return false;
+        }
         this.limit_backward = v_2;
         return true;
     }
@@ -294,17 +303,26 @@ class SwedishStemmer extends SnowballStemmer
             case 1:
                 // (, line 57
                 // delete, line 57
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 58
                 // <-, line 58
-                this.slice_from("l\u00F6s");
+                if (!this.slice_from("l\u00F6s"))
+                {
+                    return false;
+                }
                 break;
             case 3:
                 // (, line 59
                 // <-, line 59
-                this.slice_from("full");
+                if (!this.slice_from("full"))
+                {
+                    return false;
+                }
                 break;
         }
         this.limit_backward = v_2;

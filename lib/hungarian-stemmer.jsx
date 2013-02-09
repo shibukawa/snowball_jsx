@@ -379,12 +379,18 @@ class HungarianStemmer extends SnowballStemmer
             case 1:
                 // (, line 62
                 // <-, line 62
-                this.slice_from("a");
+                if (!this.slice_from("a"))
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 63
                 // <-, line 63
-                this.slice_from("e");
+                if (!this.slice_from("e"))
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -428,7 +434,10 @@ class HungarianStemmer extends SnowballStemmer
         // ], line 73
         this.bra = this.cursor;
         // delete, line 73
-        this.slice_del();
+        if (!this.slice_del())
+        {
+            return false;
+        }
         return true;
     }
 
@@ -472,7 +481,10 @@ class HungarianStemmer extends SnowballStemmer
                 break;
         }
         // delete, line 81
-        this.slice_del();
+        if (!this.slice_del())
+        {
+            return false;
+        }
         // call undouble, line 82
         if (!this.r_undouble())
         {
@@ -499,7 +511,10 @@ class HungarianStemmer extends SnowballStemmer
             return false;
         }
         // delete, line 111
-        this.slice_del();
+        if (!this.slice_del())
+        {
+            return false;
+        }
         // call v_ending, line 112
         if (!this.r_v_ending())
         {
@@ -533,17 +548,26 @@ class HungarianStemmer extends SnowballStemmer
             case 1:
                 // (, line 117
                 // <-, line 117
-                this.slice_from("e");
+                if (!this.slice_from("e"))
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 118
                 // <-, line 118
-                this.slice_from("a");
+                if (!this.slice_from("a"))
+                {
+                    return false;
+                }
                 break;
             case 3:
                 // (, line 119
                 // <-, line 119
-                this.slice_from("a");
+                if (!this.slice_from("a"))
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -574,22 +598,34 @@ class HungarianStemmer extends SnowballStemmer
             case 1:
                 // (, line 125
                 // delete, line 125
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 126
                 // delete, line 126
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 3:
                 // (, line 127
                 // <-, line 127
-                this.slice_from("a");
+                if (!this.slice_from("a"))
+                {
+                    return false;
+                }
                 break;
             case 4:
                 // (, line 128
                 // <-, line 128
-                this.slice_from("e");
+                if (!this.slice_from("e"))
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -635,7 +671,10 @@ class HungarianStemmer extends SnowballStemmer
                 break;
         }
         // delete, line 137
-        this.slice_del();
+        if (!this.slice_del())
+        {
+            return false;
+        }
         // call undouble, line 138
         if (!this.r_undouble())
         {
@@ -669,37 +708,58 @@ class HungarianStemmer extends SnowballStemmer
             case 1:
                 // (, line 143
                 // <-, line 143
-                this.slice_from("a");
+                if (!this.slice_from("a"))
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 144
                 // <-, line 144
-                this.slice_from("e");
+                if (!this.slice_from("e"))
+                {
+                    return false;
+                }
                 break;
             case 3:
                 // (, line 145
                 // delete, line 145
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 4:
                 // (, line 146
                 // delete, line 146
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 5:
                 // (, line 147
                 // delete, line 147
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 6:
                 // (, line 148
                 // delete, line 148
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 7:
                 // (, line 149
                 // delete, line 149
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -730,47 +790,74 @@ class HungarianStemmer extends SnowballStemmer
             case 1:
                 // (, line 155
                 // delete, line 155
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 156
                 // <-, line 156
-                this.slice_from("e");
+                if (!this.slice_from("e"))
+                {
+                    return false;
+                }
                 break;
             case 3:
                 // (, line 157
                 // <-, line 157
-                this.slice_from("a");
+                if (!this.slice_from("a"))
+                {
+                    return false;
+                }
                 break;
             case 4:
                 // (, line 158
                 // delete, line 158
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 5:
                 // (, line 159
                 // <-, line 159
-                this.slice_from("e");
+                if (!this.slice_from("e"))
+                {
+                    return false;
+                }
                 break;
             case 6:
                 // (, line 160
                 // <-, line 160
-                this.slice_from("a");
+                if (!this.slice_from("a"))
+                {
+                    return false;
+                }
                 break;
             case 7:
                 // (, line 161
                 // delete, line 161
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 8:
                 // (, line 162
                 // <-, line 162
-                this.slice_from("e");
+                if (!this.slice_from("e"))
+                {
+                    return false;
+                }
                 break;
             case 9:
                 // (, line 163
                 // delete, line 163
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -801,102 +888,162 @@ class HungarianStemmer extends SnowballStemmer
             case 1:
                 // (, line 169
                 // delete, line 169
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 170
                 // <-, line 170
-                this.slice_from("a");
+                if (!this.slice_from("a"))
+                {
+                    return false;
+                }
                 break;
             case 3:
                 // (, line 171
                 // <-, line 171
-                this.slice_from("e");
+                if (!this.slice_from("e"))
+                {
+                    return false;
+                }
                 break;
             case 4:
                 // (, line 172
                 // delete, line 172
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 5:
                 // (, line 173
                 // <-, line 173
-                this.slice_from("a");
+                if (!this.slice_from("a"))
+                {
+                    return false;
+                }
                 break;
             case 6:
                 // (, line 174
                 // <-, line 174
-                this.slice_from("e");
+                if (!this.slice_from("e"))
+                {
+                    return false;
+                }
                 break;
             case 7:
                 // (, line 175
                 // delete, line 175
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 8:
                 // (, line 176
                 // delete, line 176
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 9:
                 // (, line 177
                 // delete, line 177
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 10:
                 // (, line 178
                 // <-, line 178
-                this.slice_from("a");
+                if (!this.slice_from("a"))
+                {
+                    return false;
+                }
                 break;
             case 11:
                 // (, line 179
                 // <-, line 179
-                this.slice_from("e");
+                if (!this.slice_from("e"))
+                {
+                    return false;
+                }
                 break;
             case 12:
                 // (, line 180
                 // delete, line 180
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 13:
                 // (, line 181
                 // delete, line 181
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 14:
                 // (, line 182
                 // <-, line 182
-                this.slice_from("a");
+                if (!this.slice_from("a"))
+                {
+                    return false;
+                }
                 break;
             case 15:
                 // (, line 183
                 // <-, line 183
-                this.slice_from("e");
+                if (!this.slice_from("e"))
+                {
+                    return false;
+                }
                 break;
             case 16:
                 // (, line 184
                 // delete, line 184
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 17:
                 // (, line 185
                 // delete, line 185
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 18:
                 // (, line 186
                 // delete, line 186
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 19:
                 // (, line 187
                 // <-, line 187
-                this.slice_from("a");
+                if (!this.slice_from("a"))
+                {
+                    return false;
+                }
                 break;
             case 20:
                 // (, line 188
                 // <-, line 188
-                this.slice_from("e");
+                if (!this.slice_from("e"))
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -927,147 +1074,234 @@ class HungarianStemmer extends SnowballStemmer
             case 1:
                 // (, line 194
                 // delete, line 194
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 195
                 // <-, line 195
-                this.slice_from("a");
+                if (!this.slice_from("a"))
+                {
+                    return false;
+                }
                 break;
             case 3:
                 // (, line 196
                 // <-, line 196
-                this.slice_from("e");
+                if (!this.slice_from("e"))
+                {
+                    return false;
+                }
                 break;
             case 4:
                 // (, line 197
                 // delete, line 197
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 5:
                 // (, line 198
                 // delete, line 198
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 6:
                 // (, line 199
                 // delete, line 199
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 7:
                 // (, line 200
                 // <-, line 200
-                this.slice_from("a");
+                if (!this.slice_from("a"))
+                {
+                    return false;
+                }
                 break;
             case 8:
                 // (, line 201
                 // <-, line 201
-                this.slice_from("e");
+                if (!this.slice_from("e"))
+                {
+                    return false;
+                }
                 break;
             case 9:
                 // (, line 202
                 // delete, line 202
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 10:
                 // (, line 203
                 // delete, line 203
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 11:
                 // (, line 204
                 // delete, line 204
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 12:
                 // (, line 205
                 // <-, line 205
-                this.slice_from("a");
+                if (!this.slice_from("a"))
+                {
+                    return false;
+                }
                 break;
             case 13:
                 // (, line 206
                 // <-, line 206
-                this.slice_from("e");
+                if (!this.slice_from("e"))
+                {
+                    return false;
+                }
                 break;
             case 14:
                 // (, line 207
                 // delete, line 207
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 15:
                 // (, line 208
                 // delete, line 208
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 16:
                 // (, line 209
                 // delete, line 209
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 17:
                 // (, line 210
                 // delete, line 210
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 18:
                 // (, line 211
                 // <-, line 211
-                this.slice_from("a");
+                if (!this.slice_from("a"))
+                {
+                    return false;
+                }
                 break;
             case 19:
                 // (, line 212
                 // <-, line 212
-                this.slice_from("e");
+                if (!this.slice_from("e"))
+                {
+                    return false;
+                }
                 break;
             case 20:
                 // (, line 214
                 // delete, line 214
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 21:
                 // (, line 215
                 // delete, line 215
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 22:
                 // (, line 216
                 // <-, line 216
-                this.slice_from("a");
+                if (!this.slice_from("a"))
+                {
+                    return false;
+                }
                 break;
             case 23:
                 // (, line 217
                 // <-, line 217
-                this.slice_from("e");
+                if (!this.slice_from("e"))
+                {
+                    return false;
+                }
                 break;
             case 24:
                 // (, line 218
                 // delete, line 218
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 25:
                 // (, line 219
                 // delete, line 219
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 26:
                 // (, line 220
                 // delete, line 220
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 27:
                 // (, line 221
                 // <-, line 221
-                this.slice_from("a");
+                if (!this.slice_from("a"))
+                {
+                    return false;
+                }
                 break;
             case 28:
                 // (, line 222
                 // <-, line 222
-                this.slice_from("e");
+                if (!this.slice_from("e"))
+                {
+                    return false;
+                }
                 break;
             case 29:
                 // (, line 223
                 // delete, line 223
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
         }
         return true;

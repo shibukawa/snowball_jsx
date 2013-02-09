@@ -194,7 +194,10 @@ class NorwegianStemmer extends SnowballStemmer
             case 1:
                 // (, line 44
                 // delete, line 44
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 2:
                 // (, line 46
@@ -227,12 +230,18 @@ class NorwegianStemmer extends SnowballStemmer
                     }
                 }
                 // delete, line 46
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
             case 3:
                 // (, line 48
                 // <-, line 48
-                this.slice_from("er");
+                if (!this.slice_from("er"))
+                {
+                    return false;
+                }
                 break;
         }
         return true;
@@ -280,7 +289,10 @@ class NorwegianStemmer extends SnowballStemmer
         // ], line 59
         this.bra = this.cursor;
         // delete, line 59
-        this.slice_del();
+        if (!this.slice_del())
+        {
+            return false;
+        }
         return true;
     }
 
@@ -320,7 +332,10 @@ class NorwegianStemmer extends SnowballStemmer
             case 1:
                 // (, line 67
                 // delete, line 67
-                this.slice_del();
+                if (!this.slice_del())
+                {
+                    return false;
+                }
                 break;
         }
         return true;
