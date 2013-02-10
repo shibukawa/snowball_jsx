@@ -14,53 +14,53 @@ class DutchStemmer extends SnowballStemmer
     static const methodObject = new DutchStemmer();
 
     static const a_0 = [
-        new Among("", -1, 6, "", DutchStemmer.methodObject),
-        new Among("\u00E1", 0, 1, "", DutchStemmer.methodObject),
-        new Among("\u00E4", 0, 1, "", DutchStemmer.methodObject),
-        new Among("\u00E9", 0, 2, "", DutchStemmer.methodObject),
-        new Among("\u00EB", 0, 2, "", DutchStemmer.methodObject),
-        new Among("\u00ED", 0, 3, "", DutchStemmer.methodObject),
-        new Among("\u00EF", 0, 3, "", DutchStemmer.methodObject),
-        new Among("\u00F3", 0, 4, "", DutchStemmer.methodObject),
-        new Among("\u00F6", 0, 4, "", DutchStemmer.methodObject),
-        new Among("\u00FA", 0, 5, "", DutchStemmer.methodObject),
-        new Among("\u00FC", 0, 5, "", DutchStemmer.methodObject)
+        new Among("", -1, 6, null, null),
+        new Among("\u00E1", 0, 1, null, null),
+        new Among("\u00E4", 0, 1, null, null),
+        new Among("\u00E9", 0, 2, null, null),
+        new Among("\u00EB", 0, 2, null, null),
+        new Among("\u00ED", 0, 3, null, null),
+        new Among("\u00EF", 0, 3, null, null),
+        new Among("\u00F3", 0, 4, null, null),
+        new Among("\u00F6", 0, 4, null, null),
+        new Among("\u00FA", 0, 5, null, null),
+        new Among("\u00FC", 0, 5, null, null)
     ];
 
     static const a_1 = [
-        new Among("", -1, 3, "", DutchStemmer.methodObject),
-        new Among("I", 0, 2, "", DutchStemmer.methodObject),
-        new Among("Y", 0, 1, "", DutchStemmer.methodObject)
+        new Among("", -1, 3, null, null),
+        new Among("I", 0, 2, null, null),
+        new Among("Y", 0, 1, null, null)
     ];
 
     static const a_2 = [
-        new Among("dd", -1, -1, "", DutchStemmer.methodObject),
-        new Among("kk", -1, -1, "", DutchStemmer.methodObject),
-        new Among("tt", -1, -1, "", DutchStemmer.methodObject)
+        new Among("dd", -1, -1, null, null),
+        new Among("kk", -1, -1, null, null),
+        new Among("tt", -1, -1, null, null)
     ];
 
     static const a_3 = [
-        new Among("ene", -1, 2, "", DutchStemmer.methodObject),
-        new Among("se", -1, 3, "", DutchStemmer.methodObject),
-        new Among("en", -1, 2, "", DutchStemmer.methodObject),
-        new Among("heden", 2, 1, "", DutchStemmer.methodObject),
-        new Among("s", -1, 3, "", DutchStemmer.methodObject)
+        new Among("ene", -1, 2, null, null),
+        new Among("se", -1, 3, null, null),
+        new Among("en", -1, 2, null, null),
+        new Among("heden", 2, 1, null, null),
+        new Among("s", -1, 3, null, null)
     ];
 
     static const a_4 = [
-        new Among("end", -1, 1, "", DutchStemmer.methodObject),
-        new Among("ig", -1, 2, "", DutchStemmer.methodObject),
-        new Among("ing", -1, 1, "", DutchStemmer.methodObject),
-        new Among("lijk", -1, 3, "", DutchStemmer.methodObject),
-        new Among("baar", -1, 4, "", DutchStemmer.methodObject),
-        new Among("bar", -1, 5, "", DutchStemmer.methodObject)
+        new Among("end", -1, 1, null, null),
+        new Among("ig", -1, 2, null, null),
+        new Among("ing", -1, 1, null, null),
+        new Among("lijk", -1, 3, null, null),
+        new Among("baar", -1, 4, null, null),
+        new Among("bar", -1, 5, null, null)
     ];
 
     static const a_5 = [
-        new Among("aa", -1, -1, "", DutchStemmer.methodObject),
-        new Among("ee", -1, -1, "", DutchStemmer.methodObject),
-        new Among("oo", -1, -1, "", DutchStemmer.methodObject),
-        new Among("uu", -1, -1, "", DutchStemmer.methodObject)
+        new Among("aa", -1, -1, null, null),
+        new Among("ee", -1, -1, null, null),
+        new Among("oo", -1, -1, null, null),
+        new Among("uu", -1, -1, null, null)
     ];
 
     static const g_v = [17, 65, 16, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128] : int[];

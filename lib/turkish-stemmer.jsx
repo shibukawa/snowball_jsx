@@ -14,195 +14,195 @@ class TurkishStemmer extends SnowballStemmer
     static const methodObject = new TurkishStemmer();
 
     static const a_0 = [
-        new Among("m", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("n", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("miz", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("niz", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("muz", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("nuz", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("m\u00FCz", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("n\u00FCz", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("m\u0131z", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("n\u0131z", -1, -1, "", TurkishStemmer.methodObject)
+        new Among("m", -1, -1, null, null),
+        new Among("n", -1, -1, null, null),
+        new Among("miz", -1, -1, null, null),
+        new Among("niz", -1, -1, null, null),
+        new Among("muz", -1, -1, null, null),
+        new Among("nuz", -1, -1, null, null),
+        new Among("m\u00FCz", -1, -1, null, null),
+        new Among("n\u00FCz", -1, -1, null, null),
+        new Among("m\u0131z", -1, -1, null, null),
+        new Among("n\u0131z", -1, -1, null, null)
     ];
 
     static const a_1 = [
-        new Among("leri", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("lar\u0131", -1, -1, "", TurkishStemmer.methodObject)
+        new Among("leri", -1, -1, null, null),
+        new Among("lar\u0131", -1, -1, null, null)
     ];
 
     static const a_2 = [
-        new Among("ni", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("nu", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("n\u00FC", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("n\u0131", -1, -1, "", TurkishStemmer.methodObject)
+        new Among("ni", -1, -1, null, null),
+        new Among("nu", -1, -1, null, null),
+        new Among("n\u00FC", -1, -1, null, null),
+        new Among("n\u0131", -1, -1, null, null)
     ];
 
     static const a_3 = [
-        new Among("in", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("un", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("\u00FCn", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("\u0131n", -1, -1, "", TurkishStemmer.methodObject)
+        new Among("in", -1, -1, null, null),
+        new Among("un", -1, -1, null, null),
+        new Among("\u00FCn", -1, -1, null, null),
+        new Among("\u0131n", -1, -1, null, null)
     ];
 
     static const a_4 = [
-        new Among("a", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("e", -1, -1, "", TurkishStemmer.methodObject)
+        new Among("a", -1, -1, null, null),
+        new Among("e", -1, -1, null, null)
     ];
 
     static const a_5 = [
-        new Among("na", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("ne", -1, -1, "", TurkishStemmer.methodObject)
+        new Among("na", -1, -1, null, null),
+        new Among("ne", -1, -1, null, null)
     ];
 
     static const a_6 = [
-        new Among("da", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("ta", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("de", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("te", -1, -1, "", TurkishStemmer.methodObject)
+        new Among("da", -1, -1, null, null),
+        new Among("ta", -1, -1, null, null),
+        new Among("de", -1, -1, null, null),
+        new Among("te", -1, -1, null, null)
     ];
 
     static const a_7 = [
-        new Among("nda", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("nde", -1, -1, "", TurkishStemmer.methodObject)
+        new Among("nda", -1, -1, null, null),
+        new Among("nde", -1, -1, null, null)
     ];
 
     static const a_8 = [
-        new Among("dan", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("tan", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("den", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("ten", -1, -1, "", TurkishStemmer.methodObject)
+        new Among("dan", -1, -1, null, null),
+        new Among("tan", -1, -1, null, null),
+        new Among("den", -1, -1, null, null),
+        new Among("ten", -1, -1, null, null)
     ];
 
     static const a_9 = [
-        new Among("ndan", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("nden", -1, -1, "", TurkishStemmer.methodObject)
+        new Among("ndan", -1, -1, null, null),
+        new Among("nden", -1, -1, null, null)
     ];
 
     static const a_10 = [
-        new Among("la", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("le", -1, -1, "", TurkishStemmer.methodObject)
+        new Among("la", -1, -1, null, null),
+        new Among("le", -1, -1, null, null)
     ];
 
     static const a_11 = [
-        new Among("ca", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("ce", -1, -1, "", TurkishStemmer.methodObject)
+        new Among("ca", -1, -1, null, null),
+        new Among("ce", -1, -1, null, null)
     ];
 
     static const a_12 = [
-        new Among("im", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("um", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("\u00FCm", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("\u0131m", -1, -1, "", TurkishStemmer.methodObject)
+        new Among("im", -1, -1, null, null),
+        new Among("um", -1, -1, null, null),
+        new Among("\u00FCm", -1, -1, null, null),
+        new Among("\u0131m", -1, -1, null, null)
     ];
 
     static const a_13 = [
-        new Among("sin", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("sun", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("s\u00FCn", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("s\u0131n", -1, -1, "", TurkishStemmer.methodObject)
+        new Among("sin", -1, -1, null, null),
+        new Among("sun", -1, -1, null, null),
+        new Among("s\u00FCn", -1, -1, null, null),
+        new Among("s\u0131n", -1, -1, null, null)
     ];
 
     static const a_14 = [
-        new Among("iz", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("uz", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("\u00FCz", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("\u0131z", -1, -1, "", TurkishStemmer.methodObject)
+        new Among("iz", -1, -1, null, null),
+        new Among("uz", -1, -1, null, null),
+        new Among("\u00FCz", -1, -1, null, null),
+        new Among("\u0131z", -1, -1, null, null)
     ];
 
     static const a_15 = [
-        new Among("siniz", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("sunuz", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("s\u00FCn\u00FCz", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("s\u0131n\u0131z", -1, -1, "", TurkishStemmer.methodObject)
+        new Among("siniz", -1, -1, null, null),
+        new Among("sunuz", -1, -1, null, null),
+        new Among("s\u00FCn\u00FCz", -1, -1, null, null),
+        new Among("s\u0131n\u0131z", -1, -1, null, null)
     ];
 
     static const a_16 = [
-        new Among("lar", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("ler", -1, -1, "", TurkishStemmer.methodObject)
+        new Among("lar", -1, -1, null, null),
+        new Among("ler", -1, -1, null, null)
     ];
 
     static const a_17 = [
-        new Among("niz", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("nuz", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("n\u00FCz", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("n\u0131z", -1, -1, "", TurkishStemmer.methodObject)
+        new Among("niz", -1, -1, null, null),
+        new Among("nuz", -1, -1, null, null),
+        new Among("n\u00FCz", -1, -1, null, null),
+        new Among("n\u0131z", -1, -1, null, null)
     ];
 
     static const a_18 = [
-        new Among("dir", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("tir", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("dur", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("tur", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("d\u00FCr", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("t\u00FCr", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("d\u0131r", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("t\u0131r", -1, -1, "", TurkishStemmer.methodObject)
+        new Among("dir", -1, -1, null, null),
+        new Among("tir", -1, -1, null, null),
+        new Among("dur", -1, -1, null, null),
+        new Among("tur", -1, -1, null, null),
+        new Among("d\u00FCr", -1, -1, null, null),
+        new Among("t\u00FCr", -1, -1, null, null),
+        new Among("d\u0131r", -1, -1, null, null),
+        new Among("t\u0131r", -1, -1, null, null)
     ];
 
     static const a_19 = [
-        new Among("cas\u0131na", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("cesine", -1, -1, "", TurkishStemmer.methodObject)
+        new Among("cas\u0131na", -1, -1, null, null),
+        new Among("cesine", -1, -1, null, null)
     ];
 
     static const a_20 = [
-        new Among("di", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("ti", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("dik", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("tik", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("duk", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("tuk", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("d\u00FCk", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("t\u00FCk", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("d\u0131k", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("t\u0131k", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("dim", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("tim", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("dum", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("tum", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("d\u00FCm", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("t\u00FCm", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("d\u0131m", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("t\u0131m", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("din", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("tin", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("dun", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("tun", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("d\u00FCn", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("t\u00FCn", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("d\u0131n", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("t\u0131n", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("du", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("tu", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("d\u00FC", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("t\u00FC", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("d\u0131", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("t\u0131", -1, -1, "", TurkishStemmer.methodObject)
+        new Among("di", -1, -1, null, null),
+        new Among("ti", -1, -1, null, null),
+        new Among("dik", -1, -1, null, null),
+        new Among("tik", -1, -1, null, null),
+        new Among("duk", -1, -1, null, null),
+        new Among("tuk", -1, -1, null, null),
+        new Among("d\u00FCk", -1, -1, null, null),
+        new Among("t\u00FCk", -1, -1, null, null),
+        new Among("d\u0131k", -1, -1, null, null),
+        new Among("t\u0131k", -1, -1, null, null),
+        new Among("dim", -1, -1, null, null),
+        new Among("tim", -1, -1, null, null),
+        new Among("dum", -1, -1, null, null),
+        new Among("tum", -1, -1, null, null),
+        new Among("d\u00FCm", -1, -1, null, null),
+        new Among("t\u00FCm", -1, -1, null, null),
+        new Among("d\u0131m", -1, -1, null, null),
+        new Among("t\u0131m", -1, -1, null, null),
+        new Among("din", -1, -1, null, null),
+        new Among("tin", -1, -1, null, null),
+        new Among("dun", -1, -1, null, null),
+        new Among("tun", -1, -1, null, null),
+        new Among("d\u00FCn", -1, -1, null, null),
+        new Among("t\u00FCn", -1, -1, null, null),
+        new Among("d\u0131n", -1, -1, null, null),
+        new Among("t\u0131n", -1, -1, null, null),
+        new Among("du", -1, -1, null, null),
+        new Among("tu", -1, -1, null, null),
+        new Among("d\u00FC", -1, -1, null, null),
+        new Among("t\u00FC", -1, -1, null, null),
+        new Among("d\u0131", -1, -1, null, null),
+        new Among("t\u0131", -1, -1, null, null)
     ];
 
     static const a_21 = [
-        new Among("sa", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("se", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("sak", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("sek", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("sam", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("sem", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("san", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("sen", -1, -1, "", TurkishStemmer.methodObject)
+        new Among("sa", -1, -1, null, null),
+        new Among("se", -1, -1, null, null),
+        new Among("sak", -1, -1, null, null),
+        new Among("sek", -1, -1, null, null),
+        new Among("sam", -1, -1, null, null),
+        new Among("sem", -1, -1, null, null),
+        new Among("san", -1, -1, null, null),
+        new Among("sen", -1, -1, null, null)
     ];
 
     static const a_22 = [
-        new Among("mi\u015F", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("mu\u015F", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("m\u00FC\u015F", -1, -1, "", TurkishStemmer.methodObject),
-        new Among("m\u0131\u015F", -1, -1, "", TurkishStemmer.methodObject)
+        new Among("mi\u015F", -1, -1, null, null),
+        new Among("mu\u015F", -1, -1, null, null),
+        new Among("m\u00FC\u015F", -1, -1, null, null),
+        new Among("m\u0131\u015F", -1, -1, null, null)
     ];
 
     static const a_23 = [
-        new Among("b", -1, 1, "", TurkishStemmer.methodObject),
-        new Among("c", -1, 2, "", TurkishStemmer.methodObject),
-        new Among("d", -1, 3, "", TurkishStemmer.methodObject),
-        new Among("\u011F", -1, 4, "", TurkishStemmer.methodObject)
+        new Among("b", -1, 1, null, null),
+        new Among("c", -1, 2, null, null),
+        new Among("d", -1, 3, null, null),
+        new Among("\u011F", -1, 4, null, null)
     ];
 
     static const g_vowel = [17, 65, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 8, 0, 0, 0, 0, 0, 0, 1] : int[];

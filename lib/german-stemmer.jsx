@@ -14,45 +14,45 @@ class GermanStemmer extends SnowballStemmer
     static const methodObject = new GermanStemmer();
 
     static const a_0 = [
-        new Among("", -1, 6, "", GermanStemmer.methodObject),
-        new Among("U", 0, 2, "", GermanStemmer.methodObject),
-        new Among("Y", 0, 1, "", GermanStemmer.methodObject),
-        new Among("\u00E4", 0, 3, "", GermanStemmer.methodObject),
-        new Among("\u00F6", 0, 4, "", GermanStemmer.methodObject),
-        new Among("\u00FC", 0, 5, "", GermanStemmer.methodObject)
+        new Among("", -1, 6, null, null),
+        new Among("U", 0, 2, null, null),
+        new Among("Y", 0, 1, null, null),
+        new Among("\u00E4", 0, 3, null, null),
+        new Among("\u00F6", 0, 4, null, null),
+        new Among("\u00FC", 0, 5, null, null)
     ];
 
     static const a_1 = [
-        new Among("e", -1, 2, "", GermanStemmer.methodObject),
-        new Among("em", -1, 1, "", GermanStemmer.methodObject),
-        new Among("en", -1, 2, "", GermanStemmer.methodObject),
-        new Among("ern", -1, 1, "", GermanStemmer.methodObject),
-        new Among("er", -1, 1, "", GermanStemmer.methodObject),
-        new Among("s", -1, 3, "", GermanStemmer.methodObject),
-        new Among("es", 5, 2, "", GermanStemmer.methodObject)
+        new Among("e", -1, 2, null, null),
+        new Among("em", -1, 1, null, null),
+        new Among("en", -1, 2, null, null),
+        new Among("ern", -1, 1, null, null),
+        new Among("er", -1, 1, null, null),
+        new Among("s", -1, 3, null, null),
+        new Among("es", 5, 2, null, null)
     ];
 
     static const a_2 = [
-        new Among("en", -1, 1, "", GermanStemmer.methodObject),
-        new Among("er", -1, 1, "", GermanStemmer.methodObject),
-        new Among("st", -1, 2, "", GermanStemmer.methodObject),
-        new Among("est", 2, 1, "", GermanStemmer.methodObject)
+        new Among("en", -1, 1, null, null),
+        new Among("er", -1, 1, null, null),
+        new Among("st", -1, 2, null, null),
+        new Among("est", 2, 1, null, null)
     ];
 
     static const a_3 = [
-        new Among("ig", -1, 1, "", GermanStemmer.methodObject),
-        new Among("lich", -1, 1, "", GermanStemmer.methodObject)
+        new Among("ig", -1, 1, null, null),
+        new Among("lich", -1, 1, null, null)
     ];
 
     static const a_4 = [
-        new Among("end", -1, 1, "", GermanStemmer.methodObject),
-        new Among("ig", -1, 2, "", GermanStemmer.methodObject),
-        new Among("ung", -1, 1, "", GermanStemmer.methodObject),
-        new Among("lich", -1, 3, "", GermanStemmer.methodObject),
-        new Among("isch", -1, 2, "", GermanStemmer.methodObject),
-        new Among("ik", -1, 2, "", GermanStemmer.methodObject),
-        new Among("heit", -1, 3, "", GermanStemmer.methodObject),
-        new Among("keit", -1, 4, "", GermanStemmer.methodObject)
+        new Among("end", -1, 1, null, null),
+        new Among("ig", -1, 2, null, null),
+        new Among("ung", -1, 1, null, null),
+        new Among("lich", -1, 3, null, null),
+        new Among("isch", -1, 2, null, null),
+        new Among("ik", -1, 2, null, null),
+        new Among("heit", -1, 3, null, null),
+        new Among("keit", -1, 4, null, null)
     ];
 
     static const g_v = [17, 65, 16, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 32, 8] : int[];

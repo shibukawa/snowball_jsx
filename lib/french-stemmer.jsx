@@ -14,174 +14,174 @@ class FrenchStemmer extends SnowballStemmer
     static const methodObject = new FrenchStemmer();
 
     static const a_0 = [
-        new Among("col", -1, -1, "", FrenchStemmer.methodObject),
-        new Among("par", -1, -1, "", FrenchStemmer.methodObject),
-        new Among("tap", -1, -1, "", FrenchStemmer.methodObject)
+        new Among("col", -1, -1, null, null),
+        new Among("par", -1, -1, null, null),
+        new Among("tap", -1, -1, null, null)
     ];
 
     static const a_1 = [
-        new Among("", -1, 4, "", FrenchStemmer.methodObject),
-        new Among("I", 0, 1, "", FrenchStemmer.methodObject),
-        new Among("U", 0, 2, "", FrenchStemmer.methodObject),
-        new Among("Y", 0, 3, "", FrenchStemmer.methodObject)
+        new Among("", -1, 4, null, null),
+        new Among("I", 0, 1, null, null),
+        new Among("U", 0, 2, null, null),
+        new Among("Y", 0, 3, null, null)
     ];
 
     static const a_2 = [
-        new Among("iqU", -1, 3, "", FrenchStemmer.methodObject),
-        new Among("abl", -1, 3, "", FrenchStemmer.methodObject),
-        new Among("I\u00E8r", -1, 4, "", FrenchStemmer.methodObject),
-        new Among("i\u00E8r", -1, 4, "", FrenchStemmer.methodObject),
-        new Among("eus", -1, 2, "", FrenchStemmer.methodObject),
-        new Among("iv", -1, 1, "", FrenchStemmer.methodObject)
+        new Among("iqU", -1, 3, null, null),
+        new Among("abl", -1, 3, null, null),
+        new Among("I\u00E8r", -1, 4, null, null),
+        new Among("i\u00E8r", -1, 4, null, null),
+        new Among("eus", -1, 2, null, null),
+        new Among("iv", -1, 1, null, null)
     ];
 
     static const a_3 = [
-        new Among("ic", -1, 2, "", FrenchStemmer.methodObject),
-        new Among("abil", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("iv", -1, 3, "", FrenchStemmer.methodObject)
+        new Among("ic", -1, 2, null, null),
+        new Among("abil", -1, 1, null, null),
+        new Among("iv", -1, 3, null, null)
     ];
 
     static const a_4 = [
-        new Among("iqUe", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("atrice", -1, 2, "", FrenchStemmer.methodObject),
-        new Among("ance", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("ence", -1, 5, "", FrenchStemmer.methodObject),
-        new Among("logie", -1, 3, "", FrenchStemmer.methodObject),
-        new Among("able", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("isme", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("euse", -1, 11, "", FrenchStemmer.methodObject),
-        new Among("iste", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("ive", -1, 8, "", FrenchStemmer.methodObject),
-        new Among("if", -1, 8, "", FrenchStemmer.methodObject),
-        new Among("usion", -1, 4, "", FrenchStemmer.methodObject),
-        new Among("ation", -1, 2, "", FrenchStemmer.methodObject),
-        new Among("ution", -1, 4, "", FrenchStemmer.methodObject),
-        new Among("ateur", -1, 2, "", FrenchStemmer.methodObject),
-        new Among("iqUes", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("atrices", -1, 2, "", FrenchStemmer.methodObject),
-        new Among("ances", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("ences", -1, 5, "", FrenchStemmer.methodObject),
-        new Among("logies", -1, 3, "", FrenchStemmer.methodObject),
-        new Among("ables", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("ismes", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("euses", -1, 11, "", FrenchStemmer.methodObject),
-        new Among("istes", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("ives", -1, 8, "", FrenchStemmer.methodObject),
-        new Among("ifs", -1, 8, "", FrenchStemmer.methodObject),
-        new Among("usions", -1, 4, "", FrenchStemmer.methodObject),
-        new Among("ations", -1, 2, "", FrenchStemmer.methodObject),
-        new Among("utions", -1, 4, "", FrenchStemmer.methodObject),
-        new Among("ateurs", -1, 2, "", FrenchStemmer.methodObject),
-        new Among("ments", -1, 15, "", FrenchStemmer.methodObject),
-        new Among("ements", 30, 6, "", FrenchStemmer.methodObject),
-        new Among("issements", 31, 12, "", FrenchStemmer.methodObject),
-        new Among("it\u00E9s", -1, 7, "", FrenchStemmer.methodObject),
-        new Among("ment", -1, 15, "", FrenchStemmer.methodObject),
-        new Among("ement", 34, 6, "", FrenchStemmer.methodObject),
-        new Among("issement", 35, 12, "", FrenchStemmer.methodObject),
-        new Among("amment", 34, 13, "", FrenchStemmer.methodObject),
-        new Among("emment", 34, 14, "", FrenchStemmer.methodObject),
-        new Among("aux", -1, 10, "", FrenchStemmer.methodObject),
-        new Among("eaux", 39, 9, "", FrenchStemmer.methodObject),
-        new Among("eux", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("it\u00E9", -1, 7, "", FrenchStemmer.methodObject)
+        new Among("iqUe", -1, 1, null, null),
+        new Among("atrice", -1, 2, null, null),
+        new Among("ance", -1, 1, null, null),
+        new Among("ence", -1, 5, null, null),
+        new Among("logie", -1, 3, null, null),
+        new Among("able", -1, 1, null, null),
+        new Among("isme", -1, 1, null, null),
+        new Among("euse", -1, 11, null, null),
+        new Among("iste", -1, 1, null, null),
+        new Among("ive", -1, 8, null, null),
+        new Among("if", -1, 8, null, null),
+        new Among("usion", -1, 4, null, null),
+        new Among("ation", -1, 2, null, null),
+        new Among("ution", -1, 4, null, null),
+        new Among("ateur", -1, 2, null, null),
+        new Among("iqUes", -1, 1, null, null),
+        new Among("atrices", -1, 2, null, null),
+        new Among("ances", -1, 1, null, null),
+        new Among("ences", -1, 5, null, null),
+        new Among("logies", -1, 3, null, null),
+        new Among("ables", -1, 1, null, null),
+        new Among("ismes", -1, 1, null, null),
+        new Among("euses", -1, 11, null, null),
+        new Among("istes", -1, 1, null, null),
+        new Among("ives", -1, 8, null, null),
+        new Among("ifs", -1, 8, null, null),
+        new Among("usions", -1, 4, null, null),
+        new Among("ations", -1, 2, null, null),
+        new Among("utions", -1, 4, null, null),
+        new Among("ateurs", -1, 2, null, null),
+        new Among("ments", -1, 15, null, null),
+        new Among("ements", 30, 6, null, null),
+        new Among("issements", 31, 12, null, null),
+        new Among("it\u00E9s", -1, 7, null, null),
+        new Among("ment", -1, 15, null, null),
+        new Among("ement", 34, 6, null, null),
+        new Among("issement", 35, 12, null, null),
+        new Among("amment", 34, 13, null, null),
+        new Among("emment", 34, 14, null, null),
+        new Among("aux", -1, 10, null, null),
+        new Among("eaux", 39, 9, null, null),
+        new Among("eux", -1, 1, null, null),
+        new Among("it\u00E9", -1, 7, null, null)
     ];
 
     static const a_5 = [
-        new Among("ira", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("ie", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("isse", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("issante", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("i", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("irai", 4, 1, "", FrenchStemmer.methodObject),
-        new Among("ir", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("iras", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("ies", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("\u00EEmes", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("isses", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("issantes", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("\u00EEtes", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("is", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("irais", 13, 1, "", FrenchStemmer.methodObject),
-        new Among("issais", 13, 1, "", FrenchStemmer.methodObject),
-        new Among("irions", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("issions", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("irons", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("issons", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("issants", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("it", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("irait", 21, 1, "", FrenchStemmer.methodObject),
-        new Among("issait", 21, 1, "", FrenchStemmer.methodObject),
-        new Among("issant", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("iraIent", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("issaIent", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("irent", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("issent", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("iront", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("\u00EEt", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("iriez", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("issiez", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("irez", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("issez", -1, 1, "", FrenchStemmer.methodObject)
+        new Among("ira", -1, 1, null, null),
+        new Among("ie", -1, 1, null, null),
+        new Among("isse", -1, 1, null, null),
+        new Among("issante", -1, 1, null, null),
+        new Among("i", -1, 1, null, null),
+        new Among("irai", 4, 1, null, null),
+        new Among("ir", -1, 1, null, null),
+        new Among("iras", -1, 1, null, null),
+        new Among("ies", -1, 1, null, null),
+        new Among("\u00EEmes", -1, 1, null, null),
+        new Among("isses", -1, 1, null, null),
+        new Among("issantes", -1, 1, null, null),
+        new Among("\u00EEtes", -1, 1, null, null),
+        new Among("is", -1, 1, null, null),
+        new Among("irais", 13, 1, null, null),
+        new Among("issais", 13, 1, null, null),
+        new Among("irions", -1, 1, null, null),
+        new Among("issions", -1, 1, null, null),
+        new Among("irons", -1, 1, null, null),
+        new Among("issons", -1, 1, null, null),
+        new Among("issants", -1, 1, null, null),
+        new Among("it", -1, 1, null, null),
+        new Among("irait", 21, 1, null, null),
+        new Among("issait", 21, 1, null, null),
+        new Among("issant", -1, 1, null, null),
+        new Among("iraIent", -1, 1, null, null),
+        new Among("issaIent", -1, 1, null, null),
+        new Among("irent", -1, 1, null, null),
+        new Among("issent", -1, 1, null, null),
+        new Among("iront", -1, 1, null, null),
+        new Among("\u00EEt", -1, 1, null, null),
+        new Among("iriez", -1, 1, null, null),
+        new Among("issiez", -1, 1, null, null),
+        new Among("irez", -1, 1, null, null),
+        new Among("issez", -1, 1, null, null)
     ];
 
     static const a_6 = [
-        new Among("a", -1, 3, "", FrenchStemmer.methodObject),
-        new Among("era", 0, 2, "", FrenchStemmer.methodObject),
-        new Among("asse", -1, 3, "", FrenchStemmer.methodObject),
-        new Among("ante", -1, 3, "", FrenchStemmer.methodObject),
-        new Among("\u00E9e", -1, 2, "", FrenchStemmer.methodObject),
-        new Among("ai", -1, 3, "", FrenchStemmer.methodObject),
-        new Among("erai", 5, 2, "", FrenchStemmer.methodObject),
-        new Among("er", -1, 2, "", FrenchStemmer.methodObject),
-        new Among("as", -1, 3, "", FrenchStemmer.methodObject),
-        new Among("eras", 8, 2, "", FrenchStemmer.methodObject),
-        new Among("\u00E2mes", -1, 3, "", FrenchStemmer.methodObject),
-        new Among("asses", -1, 3, "", FrenchStemmer.methodObject),
-        new Among("antes", -1, 3, "", FrenchStemmer.methodObject),
-        new Among("\u00E2tes", -1, 3, "", FrenchStemmer.methodObject),
-        new Among("\u00E9es", -1, 2, "", FrenchStemmer.methodObject),
-        new Among("ais", -1, 3, "", FrenchStemmer.methodObject),
-        new Among("erais", 15, 2, "", FrenchStemmer.methodObject),
-        new Among("ions", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("erions", 17, 2, "", FrenchStemmer.methodObject),
-        new Among("assions", 17, 3, "", FrenchStemmer.methodObject),
-        new Among("erons", -1, 2, "", FrenchStemmer.methodObject),
-        new Among("ants", -1, 3, "", FrenchStemmer.methodObject),
-        new Among("\u00E9s", -1, 2, "", FrenchStemmer.methodObject),
-        new Among("ait", -1, 3, "", FrenchStemmer.methodObject),
-        new Among("erait", 23, 2, "", FrenchStemmer.methodObject),
-        new Among("ant", -1, 3, "", FrenchStemmer.methodObject),
-        new Among("aIent", -1, 3, "", FrenchStemmer.methodObject),
-        new Among("eraIent", 26, 2, "", FrenchStemmer.methodObject),
-        new Among("\u00E8rent", -1, 2, "", FrenchStemmer.methodObject),
-        new Among("assent", -1, 3, "", FrenchStemmer.methodObject),
-        new Among("eront", -1, 2, "", FrenchStemmer.methodObject),
-        new Among("\u00E2t", -1, 3, "", FrenchStemmer.methodObject),
-        new Among("ez", -1, 2, "", FrenchStemmer.methodObject),
-        new Among("iez", 32, 2, "", FrenchStemmer.methodObject),
-        new Among("eriez", 33, 2, "", FrenchStemmer.methodObject),
-        new Among("assiez", 33, 3, "", FrenchStemmer.methodObject),
-        new Among("erez", 32, 2, "", FrenchStemmer.methodObject),
-        new Among("\u00E9", -1, 2, "", FrenchStemmer.methodObject)
+        new Among("a", -1, 3, null, null),
+        new Among("era", 0, 2, null, null),
+        new Among("asse", -1, 3, null, null),
+        new Among("ante", -1, 3, null, null),
+        new Among("\u00E9e", -1, 2, null, null),
+        new Among("ai", -1, 3, null, null),
+        new Among("erai", 5, 2, null, null),
+        new Among("er", -1, 2, null, null),
+        new Among("as", -1, 3, null, null),
+        new Among("eras", 8, 2, null, null),
+        new Among("\u00E2mes", -1, 3, null, null),
+        new Among("asses", -1, 3, null, null),
+        new Among("antes", -1, 3, null, null),
+        new Among("\u00E2tes", -1, 3, null, null),
+        new Among("\u00E9es", -1, 2, null, null),
+        new Among("ais", -1, 3, null, null),
+        new Among("erais", 15, 2, null, null),
+        new Among("ions", -1, 1, null, null),
+        new Among("erions", 17, 2, null, null),
+        new Among("assions", 17, 3, null, null),
+        new Among("erons", -1, 2, null, null),
+        new Among("ants", -1, 3, null, null),
+        new Among("\u00E9s", -1, 2, null, null),
+        new Among("ait", -1, 3, null, null),
+        new Among("erait", 23, 2, null, null),
+        new Among("ant", -1, 3, null, null),
+        new Among("aIent", -1, 3, null, null),
+        new Among("eraIent", 26, 2, null, null),
+        new Among("\u00E8rent", -1, 2, null, null),
+        new Among("assent", -1, 3, null, null),
+        new Among("eront", -1, 2, null, null),
+        new Among("\u00E2t", -1, 3, null, null),
+        new Among("ez", -1, 2, null, null),
+        new Among("iez", 32, 2, null, null),
+        new Among("eriez", 33, 2, null, null),
+        new Among("assiez", 33, 3, null, null),
+        new Among("erez", 32, 2, null, null),
+        new Among("\u00E9", -1, 2, null, null)
     ];
 
     static const a_7 = [
-        new Among("e", -1, 3, "", FrenchStemmer.methodObject),
-        new Among("I\u00E8re", 0, 2, "", FrenchStemmer.methodObject),
-        new Among("i\u00E8re", 0, 2, "", FrenchStemmer.methodObject),
-        new Among("ion", -1, 1, "", FrenchStemmer.methodObject),
-        new Among("Ier", -1, 2, "", FrenchStemmer.methodObject),
-        new Among("ier", -1, 2, "", FrenchStemmer.methodObject),
-        new Among("\u00EB", -1, 4, "", FrenchStemmer.methodObject)
+        new Among("e", -1, 3, null, null),
+        new Among("I\u00E8re", 0, 2, null, null),
+        new Among("i\u00E8re", 0, 2, null, null),
+        new Among("ion", -1, 1, null, null),
+        new Among("Ier", -1, 2, null, null),
+        new Among("ier", -1, 2, null, null),
+        new Among("\u00EB", -1, 4, null, null)
     ];
 
     static const a_8 = [
-        new Among("ell", -1, -1, "", FrenchStemmer.methodObject),
-        new Among("eill", -1, -1, "", FrenchStemmer.methodObject),
-        new Among("enn", -1, -1, "", FrenchStemmer.methodObject),
-        new Among("onn", -1, -1, "", FrenchStemmer.methodObject),
-        new Among("ett", -1, -1, "", FrenchStemmer.methodObject)
+        new Among("ell", -1, -1, null, null),
+        new Among("eill", -1, -1, null, null),
+        new Among("enn", -1, -1, null, null),
+        new Among("onn", -1, -1, null, null),
+        new Among("ett", -1, -1, null, null)
     ];
 
     static const g_v = [17, 65, 16, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 130, 103, 8, 5] : int[];
@@ -1222,7 +1222,6 @@ class FrenchStemmer extends SnowballStemmer
                     return false;
                 }
                 return false;
-                break;
             case 14:
                 // (, line 156
                 // call RV, line 156
@@ -1238,7 +1237,6 @@ class FrenchStemmer extends SnowballStemmer
                     return false;
                 }
                 return false;
-                break;
             case 15:
                 // (, line 158
                 // test, line 158
@@ -1262,7 +1260,6 @@ class FrenchStemmer extends SnowballStemmer
                     return false;
                 }
                 return false;
-                break;
         }
         return true;
     }

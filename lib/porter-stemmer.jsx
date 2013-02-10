@@ -14,87 +14,87 @@ class PorterStemmer extends SnowballStemmer
     static const methodObject = new PorterStemmer();
 
     static const a_0 = [
-        new Among("s", -1, 3, "", PorterStemmer.methodObject),
-        new Among("ies", 0, 2, "", PorterStemmer.methodObject),
-        new Among("sses", 0, 1, "", PorterStemmer.methodObject),
-        new Among("ss", 0, -1, "", PorterStemmer.methodObject)
+        new Among("s", -1, 3, null, null),
+        new Among("ies", 0, 2, null, null),
+        new Among("sses", 0, 1, null, null),
+        new Among("ss", 0, -1, null, null)
     ];
 
     static const a_1 = [
-        new Among("", -1, 3, "", PorterStemmer.methodObject),
-        new Among("bb", 0, 2, "", PorterStemmer.methodObject),
-        new Among("dd", 0, 2, "", PorterStemmer.methodObject),
-        new Among("ff", 0, 2, "", PorterStemmer.methodObject),
-        new Among("gg", 0, 2, "", PorterStemmer.methodObject),
-        new Among("bl", 0, 1, "", PorterStemmer.methodObject),
-        new Among("mm", 0, 2, "", PorterStemmer.methodObject),
-        new Among("nn", 0, 2, "", PorterStemmer.methodObject),
-        new Among("pp", 0, 2, "", PorterStemmer.methodObject),
-        new Among("rr", 0, 2, "", PorterStemmer.methodObject),
-        new Among("at", 0, 1, "", PorterStemmer.methodObject),
-        new Among("tt", 0, 2, "", PorterStemmer.methodObject),
-        new Among("iz", 0, 1, "", PorterStemmer.methodObject)
+        new Among("", -1, 3, null, null),
+        new Among("bb", 0, 2, null, null),
+        new Among("dd", 0, 2, null, null),
+        new Among("ff", 0, 2, null, null),
+        new Among("gg", 0, 2, null, null),
+        new Among("bl", 0, 1, null, null),
+        new Among("mm", 0, 2, null, null),
+        new Among("nn", 0, 2, null, null),
+        new Among("pp", 0, 2, null, null),
+        new Among("rr", 0, 2, null, null),
+        new Among("at", 0, 1, null, null),
+        new Among("tt", 0, 2, null, null),
+        new Among("iz", 0, 1, null, null)
     ];
 
     static const a_2 = [
-        new Among("ed", -1, 2, "", PorterStemmer.methodObject),
-        new Among("eed", 0, 1, "", PorterStemmer.methodObject),
-        new Among("ing", -1, 2, "", PorterStemmer.methodObject)
+        new Among("ed", -1, 2, null, null),
+        new Among("eed", 0, 1, null, null),
+        new Among("ing", -1, 2, null, null)
     ];
 
     static const a_3 = [
-        new Among("anci", -1, 3, "", PorterStemmer.methodObject),
-        new Among("enci", -1, 2, "", PorterStemmer.methodObject),
-        new Among("abli", -1, 4, "", PorterStemmer.methodObject),
-        new Among("eli", -1, 6, "", PorterStemmer.methodObject),
-        new Among("alli", -1, 9, "", PorterStemmer.methodObject),
-        new Among("ousli", -1, 12, "", PorterStemmer.methodObject),
-        new Among("entli", -1, 5, "", PorterStemmer.methodObject),
-        new Among("aliti", -1, 10, "", PorterStemmer.methodObject),
-        new Among("biliti", -1, 14, "", PorterStemmer.methodObject),
-        new Among("iviti", -1, 13, "", PorterStemmer.methodObject),
-        new Among("tional", -1, 1, "", PorterStemmer.methodObject),
-        new Among("ational", 10, 8, "", PorterStemmer.methodObject),
-        new Among("alism", -1, 10, "", PorterStemmer.methodObject),
-        new Among("ation", -1, 8, "", PorterStemmer.methodObject),
-        new Among("ization", 13, 7, "", PorterStemmer.methodObject),
-        new Among("izer", -1, 7, "", PorterStemmer.methodObject),
-        new Among("ator", -1, 8, "", PorterStemmer.methodObject),
-        new Among("iveness", -1, 13, "", PorterStemmer.methodObject),
-        new Among("fulness", -1, 11, "", PorterStemmer.methodObject),
-        new Among("ousness", -1, 12, "", PorterStemmer.methodObject)
+        new Among("anci", -1, 3, null, null),
+        new Among("enci", -1, 2, null, null),
+        new Among("abli", -1, 4, null, null),
+        new Among("eli", -1, 6, null, null),
+        new Among("alli", -1, 9, null, null),
+        new Among("ousli", -1, 12, null, null),
+        new Among("entli", -1, 5, null, null),
+        new Among("aliti", -1, 10, null, null),
+        new Among("biliti", -1, 14, null, null),
+        new Among("iviti", -1, 13, null, null),
+        new Among("tional", -1, 1, null, null),
+        new Among("ational", 10, 8, null, null),
+        new Among("alism", -1, 10, null, null),
+        new Among("ation", -1, 8, null, null),
+        new Among("ization", 13, 7, null, null),
+        new Among("izer", -1, 7, null, null),
+        new Among("ator", -1, 8, null, null),
+        new Among("iveness", -1, 13, null, null),
+        new Among("fulness", -1, 11, null, null),
+        new Among("ousness", -1, 12, null, null)
     ];
 
     static const a_4 = [
-        new Among("icate", -1, 2, "", PorterStemmer.methodObject),
-        new Among("ative", -1, 3, "", PorterStemmer.methodObject),
-        new Among("alize", -1, 1, "", PorterStemmer.methodObject),
-        new Among("iciti", -1, 2, "", PorterStemmer.methodObject),
-        new Among("ical", -1, 2, "", PorterStemmer.methodObject),
-        new Among("ful", -1, 3, "", PorterStemmer.methodObject),
-        new Among("ness", -1, 3, "", PorterStemmer.methodObject)
+        new Among("icate", -1, 2, null, null),
+        new Among("ative", -1, 3, null, null),
+        new Among("alize", -1, 1, null, null),
+        new Among("iciti", -1, 2, null, null),
+        new Among("ical", -1, 2, null, null),
+        new Among("ful", -1, 3, null, null),
+        new Among("ness", -1, 3, null, null)
     ];
 
     static const a_5 = [
-        new Among("ic", -1, 1, "", PorterStemmer.methodObject),
-        new Among("ance", -1, 1, "", PorterStemmer.methodObject),
-        new Among("ence", -1, 1, "", PorterStemmer.methodObject),
-        new Among("able", -1, 1, "", PorterStemmer.methodObject),
-        new Among("ible", -1, 1, "", PorterStemmer.methodObject),
-        new Among("ate", -1, 1, "", PorterStemmer.methodObject),
-        new Among("ive", -1, 1, "", PorterStemmer.methodObject),
-        new Among("ize", -1, 1, "", PorterStemmer.methodObject),
-        new Among("iti", -1, 1, "", PorterStemmer.methodObject),
-        new Among("al", -1, 1, "", PorterStemmer.methodObject),
-        new Among("ism", -1, 1, "", PorterStemmer.methodObject),
-        new Among("ion", -1, 2, "", PorterStemmer.methodObject),
-        new Among("er", -1, 1, "", PorterStemmer.methodObject),
-        new Among("ous", -1, 1, "", PorterStemmer.methodObject),
-        new Among("ant", -1, 1, "", PorterStemmer.methodObject),
-        new Among("ent", -1, 1, "", PorterStemmer.methodObject),
-        new Among("ment", 15, 1, "", PorterStemmer.methodObject),
-        new Among("ement", 16, 1, "", PorterStemmer.methodObject),
-        new Among("ou", -1, 1, "", PorterStemmer.methodObject)
+        new Among("ic", -1, 1, null, null),
+        new Among("ance", -1, 1, null, null),
+        new Among("ence", -1, 1, null, null),
+        new Among("able", -1, 1, null, null),
+        new Among("ible", -1, 1, null, null),
+        new Among("ate", -1, 1, null, null),
+        new Among("ive", -1, 1, null, null),
+        new Among("ize", -1, 1, null, null),
+        new Among("iti", -1, 1, null, null),
+        new Among("al", -1, 1, null, null),
+        new Among("ism", -1, 1, null, null),
+        new Among("ion", -1, 2, null, null),
+        new Among("er", -1, 1, null, null),
+        new Among("ous", -1, 1, null, null),
+        new Among("ant", -1, 1, null, null),
+        new Among("ent", -1, 1, null, null),
+        new Among("ment", 15, 1, null, null),
+        new Among("ement", 16, 1, null, null),
+        new Among("ou", -1, 1, null, null)
     ];
 
     static const g_v = [17, 65, 16, 1] : int[];

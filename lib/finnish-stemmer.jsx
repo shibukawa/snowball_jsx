@@ -14,121 +14,121 @@ class FinnishStemmer extends SnowballStemmer
     static const methodObject = new FinnishStemmer();
 
     static const a_0 = [
-        new Among("pa", -1, 1, "", FinnishStemmer.methodObject),
-        new Among("sti", -1, 2, "", FinnishStemmer.methodObject),
-        new Among("kaan", -1, 1, "", FinnishStemmer.methodObject),
-        new Among("han", -1, 1, "", FinnishStemmer.methodObject),
-        new Among("kin", -1, 1, "", FinnishStemmer.methodObject),
-        new Among("h\u00E4n", -1, 1, "", FinnishStemmer.methodObject),
-        new Among("k\u00E4\u00E4n", -1, 1, "", FinnishStemmer.methodObject),
-        new Among("ko", -1, 1, "", FinnishStemmer.methodObject),
-        new Among("p\u00E4", -1, 1, "", FinnishStemmer.methodObject),
-        new Among("k\u00F6", -1, 1, "", FinnishStemmer.methodObject)
+        new Among("pa", -1, 1, null, null),
+        new Among("sti", -1, 2, null, null),
+        new Among("kaan", -1, 1, null, null),
+        new Among("han", -1, 1, null, null),
+        new Among("kin", -1, 1, null, null),
+        new Among("h\u00E4n", -1, 1, null, null),
+        new Among("k\u00E4\u00E4n", -1, 1, null, null),
+        new Among("ko", -1, 1, null, null),
+        new Among("p\u00E4", -1, 1, null, null),
+        new Among("k\u00F6", -1, 1, null, null)
     ];
 
     static const a_1 = [
-        new Among("lla", -1, -1, "", FinnishStemmer.methodObject),
-        new Among("na", -1, -1, "", FinnishStemmer.methodObject),
-        new Among("ssa", -1, -1, "", FinnishStemmer.methodObject),
-        new Among("ta", -1, -1, "", FinnishStemmer.methodObject),
-        new Among("lta", 3, -1, "", FinnishStemmer.methodObject),
-        new Among("sta", 3, -1, "", FinnishStemmer.methodObject)
+        new Among("lla", -1, -1, null, null),
+        new Among("na", -1, -1, null, null),
+        new Among("ssa", -1, -1, null, null),
+        new Among("ta", -1, -1, null, null),
+        new Among("lta", 3, -1, null, null),
+        new Among("sta", 3, -1, null, null)
     ];
 
     static const a_2 = [
-        new Among("ll\u00E4", -1, -1, "", FinnishStemmer.methodObject),
-        new Among("n\u00E4", -1, -1, "", FinnishStemmer.methodObject),
-        new Among("ss\u00E4", -1, -1, "", FinnishStemmer.methodObject),
-        new Among("t\u00E4", -1, -1, "", FinnishStemmer.methodObject),
-        new Among("lt\u00E4", 3, -1, "", FinnishStemmer.methodObject),
-        new Among("st\u00E4", 3, -1, "", FinnishStemmer.methodObject)
+        new Among("ll\u00E4", -1, -1, null, null),
+        new Among("n\u00E4", -1, -1, null, null),
+        new Among("ss\u00E4", -1, -1, null, null),
+        new Among("t\u00E4", -1, -1, null, null),
+        new Among("lt\u00E4", 3, -1, null, null),
+        new Among("st\u00E4", 3, -1, null, null)
     ];
 
     static const a_3 = [
-        new Among("lle", -1, -1, "", FinnishStemmer.methodObject),
-        new Among("ine", -1, -1, "", FinnishStemmer.methodObject)
+        new Among("lle", -1, -1, null, null),
+        new Among("ine", -1, -1, null, null)
     ];
 
     static const a_4 = [
-        new Among("nsa", -1, 3, "", FinnishStemmer.methodObject),
-        new Among("mme", -1, 3, "", FinnishStemmer.methodObject),
-        new Among("nne", -1, 3, "", FinnishStemmer.methodObject),
-        new Among("ni", -1, 2, "", FinnishStemmer.methodObject),
-        new Among("si", -1, 1, "", FinnishStemmer.methodObject),
-        new Among("an", -1, 4, "", FinnishStemmer.methodObject),
-        new Among("en", -1, 6, "", FinnishStemmer.methodObject),
-        new Among("\u00E4n", -1, 5, "", FinnishStemmer.methodObject),
-        new Among("ns\u00E4", -1, 3, "", FinnishStemmer.methodObject)
+        new Among("nsa", -1, 3, null, null),
+        new Among("mme", -1, 3, null, null),
+        new Among("nne", -1, 3, null, null),
+        new Among("ni", -1, 2, null, null),
+        new Among("si", -1, 1, null, null),
+        new Among("an", -1, 4, null, null),
+        new Among("en", -1, 6, null, null),
+        new Among("\u00E4n", -1, 5, null, null),
+        new Among("ns\u00E4", -1, 3, null, null)
     ];
 
     static const a_5 = [
-        new Among("aa", -1, -1, "", FinnishStemmer.methodObject),
-        new Among("ee", -1, -1, "", FinnishStemmer.methodObject),
-        new Among("ii", -1, -1, "", FinnishStemmer.methodObject),
-        new Among("oo", -1, -1, "", FinnishStemmer.methodObject),
-        new Among("uu", -1, -1, "", FinnishStemmer.methodObject),
-        new Among("\u00E4\u00E4", -1, -1, "", FinnishStemmer.methodObject),
-        new Among("\u00F6\u00F6", -1, -1, "", FinnishStemmer.methodObject)
+        new Among("aa", -1, -1, null, null),
+        new Among("ee", -1, -1, null, null),
+        new Among("ii", -1, -1, null, null),
+        new Among("oo", -1, -1, null, null),
+        new Among("uu", -1, -1, null, null),
+        new Among("\u00E4\u00E4", -1, -1, null, null),
+        new Among("\u00F6\u00F6", -1, -1, null, null)
     ];
 
     static const a_6 = [
-        new Among("a", -1, 8, "", FinnishStemmer.methodObject),
-        new Among("lla", 0, -1, "", FinnishStemmer.methodObject),
-        new Among("na", 0, -1, "", FinnishStemmer.methodObject),
-        new Among("ssa", 0, -1, "", FinnishStemmer.methodObject),
-        new Among("ta", 0, -1, "", FinnishStemmer.methodObject),
-        new Among("lta", 4, -1, "", FinnishStemmer.methodObject),
-        new Among("sta", 4, -1, "", FinnishStemmer.methodObject),
-        new Among("tta", 4, 9, "", FinnishStemmer.methodObject),
-        new Among("lle", -1, -1, "", FinnishStemmer.methodObject),
-        new Among("ine", -1, -1, "", FinnishStemmer.methodObject),
-        new Among("ksi", -1, -1, "", FinnishStemmer.methodObject),
-        new Among("n", -1, 7, "", FinnishStemmer.methodObject),
-        new Among("han", 11, 1, "", FinnishStemmer.methodObject),
-        new Among("den", 11, -1, "r_VI", FinnishStemmer.methodObject),
-        new Among("seen", 11, -1, "r_LONG", FinnishStemmer.methodObject),
-        new Among("hen", 11, 2, "", FinnishStemmer.methodObject),
-        new Among("tten", 11, -1, "r_VI", FinnishStemmer.methodObject),
-        new Among("hin", 11, 3, "", FinnishStemmer.methodObject),
-        new Among("siin", 11, -1, "r_VI", FinnishStemmer.methodObject),
-        new Among("hon", 11, 4, "", FinnishStemmer.methodObject),
-        new Among("h\u00E4n", 11, 5, "", FinnishStemmer.methodObject),
-        new Among("h\u00F6n", 11, 6, "", FinnishStemmer.methodObject),
-        new Among("\u00E4", -1, 8, "", FinnishStemmer.methodObject),
-        new Among("ll\u00E4", 22, -1, "", FinnishStemmer.methodObject),
-        new Among("n\u00E4", 22, -1, "", FinnishStemmer.methodObject),
-        new Among("ss\u00E4", 22, -1, "", FinnishStemmer.methodObject),
-        new Among("t\u00E4", 22, -1, "", FinnishStemmer.methodObject),
-        new Among("lt\u00E4", 26, -1, "", FinnishStemmer.methodObject),
-        new Among("st\u00E4", 26, -1, "", FinnishStemmer.methodObject),
-        new Among("tt\u00E4", 26, 9, "", FinnishStemmer.methodObject)
+        new Among("a", -1, 8, null, null),
+        new Among("lla", 0, -1, null, null),
+        new Among("na", 0, -1, null, null),
+        new Among("ssa", 0, -1, null, null),
+        new Among("ta", 0, -1, null, null),
+        new Among("lta", 4, -1, null, null),
+        new Among("sta", 4, -1, null, null),
+        new Among("tta", 4, 9, null, null),
+        new Among("lle", -1, -1, null, null),
+        new Among("ine", -1, -1, null, null),
+        new Among("ksi", -1, -1, null, null),
+        new Among("n", -1, 7, null, null),
+        new Among("han", 11, 1, null, null),
+        new Among("den", 11, -1, ((instance : SnowballStemmer) : boolean -> (instance as FinnishStemmer).r_VI()), FinnishStemmer.methodObject),
+        new Among("seen", 11, -1, ((instance : SnowballStemmer) : boolean -> (instance as FinnishStemmer).r_LONG()), FinnishStemmer.methodObject),
+        new Among("hen", 11, 2, null, null),
+        new Among("tten", 11, -1, ((instance : SnowballStemmer) : boolean -> (instance as FinnishStemmer).r_VI()), FinnishStemmer.methodObject),
+        new Among("hin", 11, 3, null, null),
+        new Among("siin", 11, -1, ((instance : SnowballStemmer) : boolean -> (instance as FinnishStemmer).r_VI()), FinnishStemmer.methodObject),
+        new Among("hon", 11, 4, null, null),
+        new Among("h\u00E4n", 11, 5, null, null),
+        new Among("h\u00F6n", 11, 6, null, null),
+        new Among("\u00E4", -1, 8, null, null),
+        new Among("ll\u00E4", 22, -1, null, null),
+        new Among("n\u00E4", 22, -1, null, null),
+        new Among("ss\u00E4", 22, -1, null, null),
+        new Among("t\u00E4", 22, -1, null, null),
+        new Among("lt\u00E4", 26, -1, null, null),
+        new Among("st\u00E4", 26, -1, null, null),
+        new Among("tt\u00E4", 26, 9, null, null)
     ];
 
     static const a_7 = [
-        new Among("eja", -1, -1, "", FinnishStemmer.methodObject),
-        new Among("mma", -1, 1, "", FinnishStemmer.methodObject),
-        new Among("imma", 1, -1, "", FinnishStemmer.methodObject),
-        new Among("mpa", -1, 1, "", FinnishStemmer.methodObject),
-        new Among("impa", 3, -1, "", FinnishStemmer.methodObject),
-        new Among("mmi", -1, 1, "", FinnishStemmer.methodObject),
-        new Among("immi", 5, -1, "", FinnishStemmer.methodObject),
-        new Among("mpi", -1, 1, "", FinnishStemmer.methodObject),
-        new Among("impi", 7, -1, "", FinnishStemmer.methodObject),
-        new Among("ej\u00E4", -1, -1, "", FinnishStemmer.methodObject),
-        new Among("mm\u00E4", -1, 1, "", FinnishStemmer.methodObject),
-        new Among("imm\u00E4", 10, -1, "", FinnishStemmer.methodObject),
-        new Among("mp\u00E4", -1, 1, "", FinnishStemmer.methodObject),
-        new Among("imp\u00E4", 12, -1, "", FinnishStemmer.methodObject)
+        new Among("eja", -1, -1, null, null),
+        new Among("mma", -1, 1, null, null),
+        new Among("imma", 1, -1, null, null),
+        new Among("mpa", -1, 1, null, null),
+        new Among("impa", 3, -1, null, null),
+        new Among("mmi", -1, 1, null, null),
+        new Among("immi", 5, -1, null, null),
+        new Among("mpi", -1, 1, null, null),
+        new Among("impi", 7, -1, null, null),
+        new Among("ej\u00E4", -1, -1, null, null),
+        new Among("mm\u00E4", -1, 1, null, null),
+        new Among("imm\u00E4", 10, -1, null, null),
+        new Among("mp\u00E4", -1, 1, null, null),
+        new Among("imp\u00E4", 12, -1, null, null)
     ];
 
     static const a_8 = [
-        new Among("i", -1, -1, "", FinnishStemmer.methodObject),
-        new Among("j", -1, -1, "", FinnishStemmer.methodObject)
+        new Among("i", -1, -1, null, null),
+        new Among("j", -1, -1, null, null)
     ];
 
     static const a_9 = [
-        new Among("mma", -1, 1, "", FinnishStemmer.methodObject),
-        new Among("imma", 0, -1, "", FinnishStemmer.methodObject)
+        new Among("mma", -1, 1, null, null),
+        new Among("imma", 0, -1, null, null)
     ];
 
     static const g_AEI = [17, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8] : int[];
@@ -1025,7 +1025,7 @@ class FinnishStemmer extends SnowballStemmer
         this.bra = this.cursor;
         // -> x, line 179
         this.S_x = this.slice_to(this.S_x);
-        if (S_x == null)
+        if (this.S_x == '')
         {
             return false;
         }

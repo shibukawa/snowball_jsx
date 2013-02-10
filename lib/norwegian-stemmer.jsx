@@ -14,54 +14,54 @@ class NorwegianStemmer extends SnowballStemmer
     static const methodObject = new NorwegianStemmer();
 
     static const a_0 = [
-        new Among("a", -1, 1, "", NorwegianStemmer.methodObject),
-        new Among("e", -1, 1, "", NorwegianStemmer.methodObject),
-        new Among("ede", 1, 1, "", NorwegianStemmer.methodObject),
-        new Among("ande", 1, 1, "", NorwegianStemmer.methodObject),
-        new Among("ende", 1, 1, "", NorwegianStemmer.methodObject),
-        new Among("ane", 1, 1, "", NorwegianStemmer.methodObject),
-        new Among("ene", 1, 1, "", NorwegianStemmer.methodObject),
-        new Among("hetene", 6, 1, "", NorwegianStemmer.methodObject),
-        new Among("erte", 1, 3, "", NorwegianStemmer.methodObject),
-        new Among("en", -1, 1, "", NorwegianStemmer.methodObject),
-        new Among("heten", 9, 1, "", NorwegianStemmer.methodObject),
-        new Among("ar", -1, 1, "", NorwegianStemmer.methodObject),
-        new Among("er", -1, 1, "", NorwegianStemmer.methodObject),
-        new Among("heter", 12, 1, "", NorwegianStemmer.methodObject),
-        new Among("s", -1, 2, "", NorwegianStemmer.methodObject),
-        new Among("as", 14, 1, "", NorwegianStemmer.methodObject),
-        new Among("es", 14, 1, "", NorwegianStemmer.methodObject),
-        new Among("edes", 16, 1, "", NorwegianStemmer.methodObject),
-        new Among("endes", 16, 1, "", NorwegianStemmer.methodObject),
-        new Among("enes", 16, 1, "", NorwegianStemmer.methodObject),
-        new Among("hetenes", 19, 1, "", NorwegianStemmer.methodObject),
-        new Among("ens", 14, 1, "", NorwegianStemmer.methodObject),
-        new Among("hetens", 21, 1, "", NorwegianStemmer.methodObject),
-        new Among("ers", 14, 1, "", NorwegianStemmer.methodObject),
-        new Among("ets", 14, 1, "", NorwegianStemmer.methodObject),
-        new Among("et", -1, 1, "", NorwegianStemmer.methodObject),
-        new Among("het", 25, 1, "", NorwegianStemmer.methodObject),
-        new Among("ert", -1, 3, "", NorwegianStemmer.methodObject),
-        new Among("ast", -1, 1, "", NorwegianStemmer.methodObject)
+        new Among("a", -1, 1, null, null),
+        new Among("e", -1, 1, null, null),
+        new Among("ede", 1, 1, null, null),
+        new Among("ande", 1, 1, null, null),
+        new Among("ende", 1, 1, null, null),
+        new Among("ane", 1, 1, null, null),
+        new Among("ene", 1, 1, null, null),
+        new Among("hetene", 6, 1, null, null),
+        new Among("erte", 1, 3, null, null),
+        new Among("en", -1, 1, null, null),
+        new Among("heten", 9, 1, null, null),
+        new Among("ar", -1, 1, null, null),
+        new Among("er", -1, 1, null, null),
+        new Among("heter", 12, 1, null, null),
+        new Among("s", -1, 2, null, null),
+        new Among("as", 14, 1, null, null),
+        new Among("es", 14, 1, null, null),
+        new Among("edes", 16, 1, null, null),
+        new Among("endes", 16, 1, null, null),
+        new Among("enes", 16, 1, null, null),
+        new Among("hetenes", 19, 1, null, null),
+        new Among("ens", 14, 1, null, null),
+        new Among("hetens", 21, 1, null, null),
+        new Among("ers", 14, 1, null, null),
+        new Among("ets", 14, 1, null, null),
+        new Among("et", -1, 1, null, null),
+        new Among("het", 25, 1, null, null),
+        new Among("ert", -1, 3, null, null),
+        new Among("ast", -1, 1, null, null)
     ];
 
     static const a_1 = [
-        new Among("dt", -1, -1, "", NorwegianStemmer.methodObject),
-        new Among("vt", -1, -1, "", NorwegianStemmer.methodObject)
+        new Among("dt", -1, -1, null, null),
+        new Among("vt", -1, -1, null, null)
     ];
 
     static const a_2 = [
-        new Among("leg", -1, 1, "", NorwegianStemmer.methodObject),
-        new Among("eleg", 0, 1, "", NorwegianStemmer.methodObject),
-        new Among("ig", -1, 1, "", NorwegianStemmer.methodObject),
-        new Among("eig", 2, 1, "", NorwegianStemmer.methodObject),
-        new Among("lig", 2, 1, "", NorwegianStemmer.methodObject),
-        new Among("elig", 4, 1, "", NorwegianStemmer.methodObject),
-        new Among("els", -1, 1, "", NorwegianStemmer.methodObject),
-        new Among("lov", -1, 1, "", NorwegianStemmer.methodObject),
-        new Among("elov", 7, 1, "", NorwegianStemmer.methodObject),
-        new Among("slov", 7, 1, "", NorwegianStemmer.methodObject),
-        new Among("hetslov", 9, 1, "", NorwegianStemmer.methodObject)
+        new Among("leg", -1, 1, null, null),
+        new Among("eleg", 0, 1, null, null),
+        new Among("ig", -1, 1, null, null),
+        new Among("eig", 2, 1, null, null),
+        new Among("lig", 2, 1, null, null),
+        new Among("elig", 4, 1, null, null),
+        new Among("els", -1, 1, null, null),
+        new Among("lov", -1, 1, null, null),
+        new Among("elov", 7, 1, null, null),
+        new Among("slov", 7, 1, null, null),
+        new Among("hetslov", 9, 1, null, null)
     ];
 
     static const g_v = [17, 65, 16, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48, 0, 128] : int[];
