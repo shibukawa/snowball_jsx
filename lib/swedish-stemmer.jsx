@@ -1,6 +1,6 @@
 // This file was generated automatically by the Snowball to JSX compiler
 
-import "snowball-stemmer.jsx";
+import "base-stemmer.jsx";
 import "among.jsx";
 
  /**
@@ -8,67 +8,67 @@ import "among.jsx";
   * It implements the stemming algorithm defined by a snowball script.
   */
 
-class SwedishStemmer extends SnowballStemmer
+class SwedishStemmer extends BaseStemmer
 {
     static const serialVersionUID = 1;
     static const methodObject = new SwedishStemmer();
 
     static const a_0 = [
-        new Among("a", -1, 1, null, null),
-        new Among("arna", 0, 1, null, null),
-        new Among("erna", 0, 1, null, null),
-        new Among("heterna", 2, 1, null, null),
-        new Among("orna", 0, 1, null, null),
-        new Among("ad", -1, 1, null, null),
-        new Among("e", -1, 1, null, null),
-        new Among("ade", 6, 1, null, null),
-        new Among("ande", 6, 1, null, null),
-        new Among("arne", 6, 1, null, null),
-        new Among("are", 6, 1, null, null),
-        new Among("aste", 6, 1, null, null),
-        new Among("en", -1, 1, null, null),
-        new Among("anden", 12, 1, null, null),
-        new Among("aren", 12, 1, null, null),
-        new Among("heten", 12, 1, null, null),
-        new Among("ern", -1, 1, null, null),
-        new Among("ar", -1, 1, null, null),
-        new Among("er", -1, 1, null, null),
-        new Among("heter", 18, 1, null, null),
-        new Among("or", -1, 1, null, null),
-        new Among("s", -1, 2, null, null),
-        new Among("as", 21, 1, null, null),
-        new Among("arnas", 22, 1, null, null),
-        new Among("ernas", 22, 1, null, null),
-        new Among("ornas", 22, 1, null, null),
-        new Among("es", 21, 1, null, null),
-        new Among("ades", 26, 1, null, null),
-        new Among("andes", 26, 1, null, null),
-        new Among("ens", 21, 1, null, null),
-        new Among("arens", 29, 1, null, null),
-        new Among("hetens", 29, 1, null, null),
-        new Among("erns", 21, 1, null, null),
-        new Among("at", -1, 1, null, null),
-        new Among("andet", -1, 1, null, null),
-        new Among("het", -1, 1, null, null),
-        new Among("ast", -1, 1, null, null)
+        new Among("a", -1, 1),
+        new Among("arna", 0, 1),
+        new Among("erna", 0, 1),
+        new Among("heterna", 2, 1),
+        new Among("orna", 0, 1),
+        new Among("ad", -1, 1),
+        new Among("e", -1, 1),
+        new Among("ade", 6, 1),
+        new Among("ande", 6, 1),
+        new Among("arne", 6, 1),
+        new Among("are", 6, 1),
+        new Among("aste", 6, 1),
+        new Among("en", -1, 1),
+        new Among("anden", 12, 1),
+        new Among("aren", 12, 1),
+        new Among("heten", 12, 1),
+        new Among("ern", -1, 1),
+        new Among("ar", -1, 1),
+        new Among("er", -1, 1),
+        new Among("heter", 18, 1),
+        new Among("or", -1, 1),
+        new Among("s", -1, 2),
+        new Among("as", 21, 1),
+        new Among("arnas", 22, 1),
+        new Among("ernas", 22, 1),
+        new Among("ornas", 22, 1),
+        new Among("es", 21, 1),
+        new Among("ades", 26, 1),
+        new Among("andes", 26, 1),
+        new Among("ens", 21, 1),
+        new Among("arens", 29, 1),
+        new Among("hetens", 29, 1),
+        new Among("erns", 21, 1),
+        new Among("at", -1, 1),
+        new Among("andet", -1, 1),
+        new Among("het", -1, 1),
+        new Among("ast", -1, 1)
     ];
 
     static const a_1 = [
-        new Among("dd", -1, -1, null, null),
-        new Among("gd", -1, -1, null, null),
-        new Among("nn", -1, -1, null, null),
-        new Among("dt", -1, -1, null, null),
-        new Among("gt", -1, -1, null, null),
-        new Among("kt", -1, -1, null, null),
-        new Among("tt", -1, -1, null, null)
+        new Among("dd", -1, -1),
+        new Among("gd", -1, -1),
+        new Among("nn", -1, -1),
+        new Among("dt", -1, -1),
+        new Among("gt", -1, -1),
+        new Among("kt", -1, -1),
+        new Among("tt", -1, -1)
     ];
 
     static const a_2 = [
-        new Among("ig", -1, 1, null, null),
-        new Among("lig", 0, 1, null, null),
-        new Among("els", -1, 1, null, null),
-        new Among("fullt", -1, 3, null, null),
-        new Among("l\u00F6st", -1, 2, null, null)
+        new Among("ig", -1, 1),
+        new Among("lig", 0, 1),
+        new Among("els", -1, 1),
+        new Among("fullt", -1, 3),
+        new Among("l\u00F6st", -1, 2)
     ];
 
     static const g_v = [17, 65, 16, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 0, 32] : int[];
